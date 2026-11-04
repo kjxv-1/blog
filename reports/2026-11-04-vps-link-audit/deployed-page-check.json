@@ -1,0 +1,265 @@
+{
+  "status": 200,
+  "url": "https://kjxv.net/recommend/1-vps/",
+  "count": 67,
+  "commercialCount": 32,
+  "commercialWithMatchingCode": 32,
+  "commercial": [
+    {
+      "label": "官网／注册入口",
+      "href": "https://bwh81.net/aff.php?aff=81595",
+      "vendor": "搬瓦工",
+      "key": "aff",
+      "expectedCode": "81595",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "vendor": "NodeMach",
+      "key": "vcd",
+      "expectedCode": "9467e966",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/?k=T7KBH7",
+      "vendor": "JTTI",
+      "key": "k",
+      "expectedCode": "T7KBH7",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "vendor": "VMiss",
+      "key": "aff",
+      "expectedCode": "3992",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://panstar.ai/register?aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "vendor": "NodeMach",
+      "key": "vcd",
+      "expectedCode": "9467e966",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "vendor": "JTTI",
+      "key": "k",
+      "expectedCode": "T7KBH7",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "vendor": "JTTI",
+      "key": "k",
+      "expectedCode": "T7KBH7",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=87",
+      "vendor": "搬瓦工",
+      "key": "aff",
+      "expectedCode": "81595",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "vendor": "NodeMach",
+      "key": "vcd",
+      "expectedCode": "9467e966",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "vendor": "JTTI",
+      "key": "k",
+      "expectedCode": "T7KBH7",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "vendor": "JTTI",
+      "key": "k",
+      "expectedCode": "T7KBH7",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+      "vendor": "华纳云",
+      "key": "k",
+      "expectedCode": "kejixiaov",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+      "vendor": "华纳云",
+      "key": "k",
+      "expectedCode": "kejixiaov",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "key": "aff",
+      "expectedCode": "DCAD1VCH",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=44",
+      "vendor": "搬瓦工",
+      "key": "aff",
+      "expectedCode": "81595",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "vendor": "VMiss",
+      "key": "aff",
+      "expectedCode": "3992",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "vendor": "VMiss",
+      "key": "aff",
+      "expectedCode": "3992",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "vendor": "VMiss",
+      "key": "aff",
+      "expectedCode": "3992",
+      "matches": true
+    },
+    {
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "vendor": "VMiss",
+      "key": "aff",
+      "expectedCode": "3992",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=173",
+      "vendor": "搬瓦工",
+      "key": "aff",
+      "expectedCode": "81595",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=134",
+      "vendor": "搬瓦工",
+      "key": "aff",
+      "expectedCode": "81595",
+      "matches": true
+    },
+    {
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=95",
+      "vendor": "搬瓦工",
+      "key": "aff",
+      "expectedCode": "81595",
+      "matches": true
+    }
+  ]
+}

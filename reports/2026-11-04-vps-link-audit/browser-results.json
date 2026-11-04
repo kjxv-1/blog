@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-04",
+  "browser": [
+    {
+      "url": "https://app.vmiss.com/aff.php?aff=3992",
+      "vendor": "VMiss",
+      "status": 403,
+      "finalUrl": "https://app.vmiss.com/aff.php?aff=3992",
+      "title": "Just a moment...",
+      "storageMatches": [],
+      "referralLinks": 0,
+      "selected": [],
+      "blocked": true,
+      "notFound": false,
+      "cookieMatches": []
+    },
+    {
+      "url": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "vendor": "NodeMach",
+      "status": 403,
+      "finalUrl": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "title": "Attention Required! | Cloudflare",
+      "storageMatches": [],
+      "referralLinks": 0,
+      "selected": [],
+      "blocked": true,
+      "notFound": false,
+      "cookieMatches": []
+    },
+    {
+      "url": "https://panstar.ai/register?aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "status": 403,
+      "finalUrl": "https://panstar.ai/register?aff=DCAD1VCH",
+      "title": "请稍候…",
+      "storageMatches": [],
+      "referralLinks": 0,
+      "selected": [],
+      "blocked": true,
+      "notFound": false,
+      "cookieMatches": []
+    },
+    {
+      "url": "https://www.jtti.cc/?k=T7KBH7",
+      "vendor": "JTTI",
+      "status": 200,
+      "finalUrl": "https://www.jtti.cc/?k=T7KBH7",
+      "title": "jtti-Dedicated Server|Cloud Server-Jtti Singapore Global Network Infrastructure Service Provider",
+      "storageMatches": [],
+      "referralLinks": 5,
+      "selected": [],
+      "blocked": false,
+      "notFound": false,
+      "cookieMatches": [
+        "k"
+      ]
+    },
+    {
+      "url": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "status": 403,
+      "finalUrl": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+      "title": "请稍候…",
+      "storageMatches": [],
+      "referralLinks": 0,
+      "selected": [],
+      "blocked": true,
+      "notFound": false,
+      "cookieMatches": []
+    },
+    {
+      "url": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "status": 403,
+      "finalUrl": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "title": "请稍候…",
+      "storageMatches": [],
+      "referralLinks": 0,
+      "selected": [],
+      "blocked": true,
+      "notFound": false,
+      "cookieMatches": []
+    },
+    {
+      "url": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "status": 403,
+      "finalUrl": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+      "title": "请稍候…",
+      "storageMatches": [],
+      "referralLinks": 0,
+      "selected": [],
+      "blocked": true,
+      "notFound": false,
+      "cookieMatches": []
+    },
+    {
+      "url": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "vendor": "JTTI",
+      "status": 200,
+      "finalUrl": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "title": "轻量云服务器_轻量应用服务器_ 虚拟云主机VPS-Jtti",
+      "storageMatches": [],
+      "referralLinks": 0,
+      "selected": [],
+      "blocked": false,
+      "notFound": false,
+      "cookieMatches": [
+        "k"
+      ]
+    },
+    {
+      "url": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+      "vendor": "华纳云",
+      "status": 200,
+      "finalUrl": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+      "title": "轻量云服务器__香港轻量云服务器__日本云服务器-华纳云",
+      "storageMatches": [],
+      "referralLinks": 1,
+      "selected": [],
+      "blocked": false,
+      "notFound": false,
+      "cookieMatches": [
+        "k"
+      ]
+    },
+    {
+      "url": "https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH",
+      "vendor": "Panstar",
+      "status": 403,
+      "finalUrl": "https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH",
+      "title": "请稍候…",
+      "storageMatches": [],
+      "referralLinks": 0,
+      "selected": [],
+      "blocked": true,
+      "notFound": false,
+      "cookieMatches": []
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=15nfkz7M4Hk&t=134s",
+      "status": 200,
+      "title": "🌍【2026】最新VPN搭建教程：小白也能学会的云服务器自建梯子指南丨独享节点+全球住宅IP",
+      "author": "科技小V",
+      "authorUrl": "https://www.youtube.com/@%E7%A7%91%E6%8A%80%E5%B0%8FV",
+      "publicEmbedConfirmed": true,
+      "method": "YouTube oEmbed through existing Windows local HTTP proxy 127.0.0.1:10808"
+    },
+    {
+      "url": "https://youtu.be/rl2b9WKhySk",
+      "status": 200,
+      "title": "💻 DMIT、搬瓦工连不上？VPS被墙解决方案｜IPv6节点优先，HY2搭建、换IP与备用VPS",
+      "author": "科技小V",
+      "authorUrl": "https://www.youtube.com/@%E7%A7%91%E6%8A%80%E5%B0%8FV",
+      "publicEmbedConfirmed": true,
+      "method": "YouTube oEmbed through existing Windows local HTTP proxy 127.0.0.1:10808"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vnPZRPD6AB8",
+      "status": 200,
+      "title": "💥跨境直播网络搭建保姆级教程丨TikTok/独立站通用住宅IP链式代理 + 推特、油管实测数据",
+      "author": "科技小V",
+      "authorUrl": "https://www.youtube.com/@%E7%A7%91%E6%8A%80%E5%B0%8FV",
+      "publicEmbedConfirmed": true,
+      "method": "YouTube oEmbed through existing Windows local HTTP proxy 127.0.0.1:10808"
+    },
+    {
+      "url": "https://youtu.be/dQO0tH9XIgY",
+      "status": 200,
+      "title": "50元以内VPS推荐：低预算也能拥有精品线路（CN2｜9929｜CMIN2）｜VPN搭建｜VPS搭建",
+      "author": "科技小V",
+      "authorUrl": "https://www.youtube.com/@%E7%A7%91%E6%8A%80%E5%B0%8FV",
+      "publicEmbedConfirmed": true,
+      "method": "YouTube oEmbed through existing Windows local HTTP proxy 127.0.0.1:10808"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=V7AN_wtpaDQ&t=4s",
+      "status": 200,
+      "title": "2026丨（0基础）小白VPS节点搭建教程，有手就行！丨VPS搭建v2rayn丨VPS推荐",
+      "author": "科技小V",
+      "authorUrl": "https://www.youtube.com/@%E7%A7%91%E6%8A%80%E5%B0%8FV",
+      "publicEmbedConfirmed": true,
+      "method": "YouTube oEmbed through existing Windows local HTTP proxy 127.0.0.1:10808"
+    }
+  ],
+  "completed": true
+}

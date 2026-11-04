@@ -1,0 +1,35 @@
+﻿类别,厂商,网址,出现次数,推广参数,参数核对,HTTP,结论
+商业入口,JTTI,https://www.jtti.cc/?k=T7KBH7,1,k=T7KBH7,匹配,200,页面响应正常；推广参数匹配
+商业入口,JTTI,https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7,4,k=T7KBH7,匹配,200,页面响应正常；推广参数匹配
+商业入口,NodeMach,https://www.nodemach.com/welcome?vcd=9467e966,3,vcd=9467e966,匹配,403,访问验证拦截，落地结果未确认
+商业入口,Panstar,https://panstar.ai/activities?aff=DCAD1VCH,5,aff=DCAD1VCH,匹配,200,HTTP 200、参数保留；浏览器验证限制，配置未确认
+商业入口,Panstar,https://panstar.ai/register?aff=DCAD1VCH,1,aff=DCAD1VCH,匹配,200,HTTP 200、参数保留；浏览器验证限制，配置未确认
+商业入口,Panstar,https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH,1,aff=DCAD1VCH,匹配,200,HTTP 200、参数保留；浏览器验证限制，配置未确认
+商业入口,Panstar,https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH,2,aff=DCAD1VCH,匹配,200,HTTP 200、参数保留；浏览器验证限制，配置未确认
+商业入口,Panstar,https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH,2,aff=DCAD1VCH,匹配,200,HTTP 200、参数保留；浏览器验证限制，配置未确认
+商业入口,VMiss,https://app.vmiss.com/aff.php?aff=3992,5,aff=3992,匹配,403,访问验证拦截，落地结果未确认
+商业入口,华纳云,https://www.hncloud.com/light_cloud.html?k=kejixiaov,2,k=kejixiaov,匹配,200,页面响应正常；推广参数匹配
+商业入口,搬瓦工,https://bwh81.net/aff.php?aff=81595,1,aff=81595,匹配,200,页面响应正常；推广参数匹配
+商业入口,搬瓦工,https://bwh81.net/aff.php?aff=81595&pid=134,1,aff=81595,匹配,200,页面响应正常；推广参数匹配
+商业入口,搬瓦工,https://bwh81.net/aff.php?aff=81595&pid=173,1,aff=81595,匹配,200,页面响应正常；推广参数匹配
+商业入口,搬瓦工,https://bwh81.net/aff.php?aff=81595&pid=44,1,aff=81595,匹配,200,商品地址有效；当前缺货，无法下单
+商业入口,搬瓦工,https://bwh81.net/aff.php?aff=81595&pid=87,1,aff=81595,匹配,200,商品地址有效；当前缺货，无法下单
+商业入口,搬瓦工,https://bwh81.net/aff.php?aff=81595&pid=95,1,aff=81595,匹配,200,页面响应正常；推广参数匹配
+站内链接,本站,https://kjxv.net/recommend/,1,不适用,不适用,200,本地及线上正常；—
+站内链接,本站,https://kjxv.net/recommend/1-vps/#vps-budgets,1,不适用,不适用,200,本地及线上正常；本地和线上均存在
+站内链接,本站,https://kjxv.net/recommend/1-vps/#vps-regions,1,不适用,不适用,200,本地及线上正常；本地和线上均存在
+站内链接,本站,https://kjxv.net/recommend/1-vps/#vps-vendors,1,不适用,不适用,200,本地及线上正常；本地和线上均存在
+站内链接,本站,https://kjxv.net/tutorials/bwg/,6,不适用,不适用,200,本地及线上正常；—
+站内链接,本站,https://kjxv.net/tutorials/jtti/,1,不适用,不适用,200,本地及线上正常；—
+站内链接,本站,https://kjxv.net/tutorials/jtti/#jtti-hk,2,不适用,不适用,200,本地及线上正常；本地和线上均存在
+站内链接,本站,https://kjxv.net/tutorials/jtti/#jtti-jp,2,不适用,不适用,200,本地及线上正常；本地和线上均存在
+站内链接,本站,https://kjxv.net/tutorials/nodemach/,3,不适用,不适用,200,本地及线上正常；—
+站内链接,本站,https://kjxv.net/tutorials/panstar/,3,不适用,不适用,200,本地及线上正常；—
+站内链接,本站,https://kjxv.net/tutorials/panstar/#panstar-de,2,不适用,不适用,200,本地及线上正常；本地和线上均存在
+站内链接,本站,https://kjxv.net/tutorials/panstar/#panstar-us,1,不适用,不适用,200,本地及线上正常；本地和线上均存在
+站内链接,本站,https://kjxv.net/tutorials/vmiss/,6,不适用,不适用,200,本地及线上正常；—
+搭建视频,科技小V,https://www.youtube.com/watch?v=15nfkz7M4Hk&t=134s,1,不适用,不适用,200,YouTube oEmbed 确认有效
+搭建视频,科技小V,https://youtu.be/rl2b9WKhySk,1,不适用,不适用,200,YouTube oEmbed 确认有效
+搭建视频,科技小V,https://www.youtube.com/watch?v=vnPZRPD6AB8,1,不适用,不适用,200,YouTube oEmbed 确认有效
+搭建视频,科技小V,https://youtu.be/dQO0tH9XIgY,1,不适用,不适用,200,YouTube oEmbed 确认有效
+搭建视频,科技小V,https://www.youtube.com/watch?v=V7AN_wtpaDQ&t=4s,1,不适用,不适用,200,YouTube oEmbed 确认有效

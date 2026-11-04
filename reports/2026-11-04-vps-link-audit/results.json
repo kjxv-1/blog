@@ -1,0 +1,1323 @@
+{
+  "date": "2026-11-04",
+  "scope": "docs/recommend/1-vps/index.md (including inserted video snippets)",
+  "sourceCount": 67,
+  "references": {
+    "bwh81.net": {
+      "vendor": "搬瓦工",
+      "key": "aff",
+      "code": "81595"
+    },
+    "www.nodemach.com": {
+      "vendor": "NodeMach",
+      "key": "vcd",
+      "code": "9467e966"
+    },
+    "www.jtti.cc": {
+      "vendor": "JTTI",
+      "key": "k",
+      "code": "T7KBH7"
+    },
+    "app.vmiss.com": {
+      "vendor": "VMiss",
+      "key": "aff",
+      "code": "3992"
+    },
+    "panstar.ai": {
+      "vendor": "Panstar",
+      "key": "aff",
+      "code": "DCAD1VCH"
+    },
+    "www.hncloud.com": {
+      "vendor": "华纳云",
+      "key": "k",
+      "code": "kejixiaov"
+    }
+  },
+  "external": [
+    {
+      "url": "https://bwh81.net/aff.php?aff=81595",
+      "status": 200,
+      "finalUrl": "https://bwh81.net/order/ecommerce/Los%20Angeles/USCA_9",
+      "chain": [
+        {
+          "url": "https://bwh81.net/aff.php?aff=81595",
+          "status": 302,
+          "location": "/vps-hosting.php"
+        },
+        {
+          "url": "https://bwh81.net/vps-hosting.php",
+          "status": 302,
+          "location": "/order/ecommerce/Los%20Angeles/USCA_9"
+        },
+        {
+          "url": "https://bwh81.net/order/ecommerce/Los%20Angeles/USCA_9",
+          "status": 200
+        }
+      ],
+      "title": "Mass VPS hosting on Enterprise equipment - BandwagonHost VPS",
+      "blocked": false,
+      "contentType": "text/html; charset=UTF-8",
+      "cookieNames": [
+        "AUTO_TRANSLATE",
+        "WHMCSSQgkVapT0KwS",
+        "WHMCSAffiliateID",
+        "PHPSESSID"
+      ],
+      "durationMs": 1184,
+      "occurrences": 1,
+      "labels": [
+        "官网／注册入口"
+      ],
+      "affiliate": {
+        "vendor": "搬瓦工",
+        "key": "aff",
+        "code": "81595",
+        "sourceValue": "81595",
+        "sourceMatches": true,
+        "trackingCookies": [
+          "WHMCSAffiliateID"
+        ]
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://www.jtti.cc/?k=T7KBH7",
+      "status": 200,
+      "finalUrl": "https://www.jtti.cc/?k=T7KBH7",
+      "chain": [
+        {
+          "url": "https://www.jtti.cc/?k=T7KBH7",
+          "status": 200
+        }
+      ],
+      "title": "jtti-Dedicated Server|Cloud Server-Jtti Singapore Global Network Infrastructure Service Provider",
+      "blocked": false,
+      "contentType": "text/html",
+      "cookieNames": [],
+      "durationMs": 229,
+      "occurrences": 1,
+      "labels": [
+        "官网／注册入口"
+      ],
+      "affiliate": {
+        "vendor": "JTTI",
+        "key": "k",
+        "code": "T7KBH7",
+        "sourceValue": "T7KBH7",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "status": 403,
+      "finalUrl": "https://www.nodemach.com/register",
+      "chain": [
+        {
+          "url": "https://www.nodemach.com/welcome?vcd=9467e966",
+          "status": 302,
+          "location": "https://www.nodemach.com/register"
+        },
+        {
+          "url": "https://www.nodemach.com/register",
+          "status": 403
+        }
+      ],
+      "title": "Just a moment...",
+      "blocked": true,
+      "contentType": "text/html; charset=UTF-8",
+      "cookieNames": [
+        "XSRF-TOKEN",
+        "nodemach_session",
+        "referral"
+      ],
+      "durationMs": 3484,
+      "occurrences": 3,
+      "labels": [
+        "官网／注册入口"
+      ],
+      "affiliate": {
+        "vendor": "NodeMach",
+        "key": "vcd",
+        "code": "9467e966",
+        "sourceValue": "9467e966",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://app.vmiss.com/aff.php?aff=3992",
+      "status": 403,
+      "finalUrl": "https://app.vmiss.com/aff.php?aff=3992",
+      "chain": [
+        {
+          "url": "https://app.vmiss.com/aff.php?aff=3992",
+          "status": 403
+        }
+      ],
+      "title": "Just a moment...",
+      "blocked": true,
+      "contentType": "text/html; charset=UTF-8",
+      "cookieNames": [],
+      "durationMs": 808,
+      "occurrences": 5,
+      "labels": [
+        "官网／注册入口"
+      ],
+      "affiliate": {
+        "vendor": "VMiss",
+        "key": "aff",
+        "code": "3992",
+        "sourceValue": "3992",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://youtu.be/rl2b9WKhySk",
+      "finalUrl": "https://youtu.be/rl2b9WKhySk",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 142.251.46.78:443",
+      "durationMs": 21109,
+      "occurrences": 1,
+      "labels": [
+        "VPN搭建 Nodemach演示"
+      ],
+      "affiliate": null,
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://panstar.ai/register?aff=DCAD1VCH",
+      "status": 200,
+      "finalUrl": "https://panstar.ai/register?aff=DCAD1VCH",
+      "chain": [
+        {
+          "url": "https://panstar.ai/register?aff=DCAD1VCH",
+          "status": 200
+        }
+      ],
+      "title": "PanstarCloud - ECS / VPS Cloud Servers",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "__cflb"
+      ],
+      "durationMs": 1252,
+      "occurrences": 1,
+      "labels": [
+        "官网／注册入口"
+      ],
+      "affiliate": {
+        "vendor": "Panstar",
+        "key": "aff",
+        "code": "DCAD1VCH",
+        "sourceValue": "DCAD1VCH",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=vnPZRPD6AB8",
+      "finalUrl": "https://www.youtube.com/watch?v=vnPZRPD6AB8",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 2001::1:443",
+      "durationMs": 23535,
+      "occurrences": 1,
+      "labels": [
+        "跨境直播网络搭建"
+      ],
+      "affiliate": null,
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "status": 200,
+      "finalUrl": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "chain": [
+        {
+          "url": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+          "status": 200
+        }
+      ],
+      "title": "轻量云服务器_轻量应用服务器_ 虚拟云主机VPS-Jtti",
+      "blocked": false,
+      "contentType": "text/html",
+      "cookieNames": [],
+      "durationMs": 112,
+      "occurrences": 4,
+      "labels": [
+        "官网／注册入口"
+      ],
+      "affiliate": {
+        "vendor": "JTTI",
+        "key": "k",
+        "code": "T7KBH7",
+        "sourceValue": "T7KBH7",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+      "status": 200,
+      "finalUrl": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+      "chain": [
+        {
+          "url": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+          "status": 200
+        }
+      ],
+      "title": "PanstarCloud - ECS / VPS Cloud Servers",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "__cflb"
+      ],
+      "durationMs": 1100,
+      "occurrences": 2,
+      "labels": [
+        "直达此套餐"
+      ],
+      "affiliate": {
+        "vendor": "Panstar",
+        "key": "aff",
+        "code": "DCAD1VCH",
+        "sourceValue": "DCAD1VCH",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=15nfkz7M4Hk&t=134s",
+      "finalUrl": "https://www.youtube.com/watch?v=15nfkz7M4Hk&t=134s",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 2001::1:443",
+      "durationMs": 23509,
+      "occurrences": 1,
+      "labels": [
+        "VPN搭建 JT 演示"
+      ],
+      "affiliate": null,
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "status": 200,
+      "finalUrl": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "chain": [
+        {
+          "url": "https://panstar.ai/activities?aff=DCAD1VCH",
+          "status": 200
+        }
+      ],
+      "title": "PanstarCloud - ECS / VPS Cloud Servers",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "__cflb"
+      ],
+      "durationMs": 1025,
+      "occurrences": 5,
+      "labels": [
+        "官方优惠码 领取网址"
+      ],
+      "affiliate": {
+        "vendor": "Panstar",
+        "key": "aff",
+        "code": "DCAD1VCH",
+        "sourceValue": "DCAD1VCH",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://bwh81.net/aff.php?aff=81595&pid=87",
+      "status": 200,
+      "finalUrl": "https://bwh81.net/cart.php?a=add&pid=87",
+      "chain": [
+        {
+          "url": "https://bwh81.net/aff.php?aff=81595&pid=87",
+          "status": 302,
+          "location": "cart.php?a=add&pid=87"
+        },
+        {
+          "url": "https://bwh81.net/cart.php?a=add&pid=87",
+          "status": 200
+        }
+      ],
+      "title": "",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "AUTO_TRANSLATE",
+        "WHMCSSQgkVapT0KwS",
+        "WHMCSAffiliateID",
+        "PHPSESSID"
+      ],
+      "durationMs": 981,
+      "occurrences": 1,
+      "labels": [
+        "直达此套餐"
+      ],
+      "affiliate": {
+        "vendor": "搬瓦工",
+        "key": "aff",
+        "code": "81595",
+        "sourceValue": "81595",
+        "sourceMatches": true,
+        "trackingCookies": [
+          "WHMCSAffiliateID"
+        ]
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": true,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+      "status": 200,
+      "finalUrl": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+      "chain": [
+        {
+          "url": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+          "status": 200
+        }
+      ],
+      "title": "PanstarCloud - ECS / VPS Cloud Servers",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "__cflb"
+      ],
+      "durationMs": 2029,
+      "occurrences": 2,
+      "labels": [
+        "直达此套餐"
+      ],
+      "affiliate": {
+        "vendor": "Panstar",
+        "key": "aff",
+        "code": "DCAD1VCH",
+        "sourceValue": "DCAD1VCH",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+      "status": 200,
+      "finalUrl": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+      "chain": [
+        {
+          "url": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+          "status": 200
+        }
+      ],
+      "title": "轻量云服务器__香港轻量云服务器__日本云服务器-华纳云",
+      "blocked": false,
+      "contentType": "text/html",
+      "cookieNames": [],
+      "durationMs": 272,
+      "occurrences": 2,
+      "labels": [
+        "官网／注册入口"
+      ],
+      "affiliate": {
+        "vendor": "华纳云",
+        "key": "k",
+        "code": "kejixiaov",
+        "sourceValue": "kejixiaov",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://bwh81.net/aff.php?aff=81595&pid=44",
+      "status": 200,
+      "finalUrl": "https://bwh81.net/cart.php?a=add&pid=44",
+      "chain": [
+        {
+          "url": "https://bwh81.net/aff.php?aff=81595&pid=44",
+          "status": 302,
+          "location": "cart.php?a=add&pid=44"
+        },
+        {
+          "url": "https://bwh81.net/cart.php?a=add&pid=44",
+          "status": 200
+        }
+      ],
+      "title": "",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "AUTO_TRANSLATE",
+        "WHMCSSQgkVapT0KwS",
+        "WHMCSAffiliateID",
+        "PHPSESSID"
+      ],
+      "durationMs": 449,
+      "occurrences": 1,
+      "labels": [
+        "直达此套餐"
+      ],
+      "affiliate": {
+        "vendor": "搬瓦工",
+        "key": "aff",
+        "code": "81595",
+        "sourceValue": "81595",
+        "sourceMatches": true,
+        "trackingCookies": [
+          "WHMCSAffiliateID"
+        ]
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": true,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH",
+      "status": 200,
+      "finalUrl": "https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH",
+      "chain": [
+        {
+          "url": "https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH",
+          "status": 200
+        }
+      ],
+      "title": "PanstarCloud - ECS / VPS Cloud Servers",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "__cflb"
+      ],
+      "durationMs": 808,
+      "occurrences": 1,
+      "labels": [
+        "直达此套餐"
+      ],
+      "affiliate": {
+        "vendor": "Panstar",
+        "key": "aff",
+        "code": "DCAD1VCH",
+        "sourceValue": "DCAD1VCH",
+        "sourceMatches": true,
+        "trackingCookies": []
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=V7AN_wtpaDQ&t=4s",
+      "finalUrl": "https://www.youtube.com/watch?v=V7AN_wtpaDQ&t=4s",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 2001::1:443",
+      "durationMs": 23494,
+      "occurrences": 1,
+      "labels": [
+        "VPN搭建 Vmiss 演示"
+      ],
+      "affiliate": null,
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    },
+    {
+      "url": "https://bwh81.net/aff.php?aff=81595&pid=173",
+      "status": 200,
+      "finalUrl": "https://bwh81.net/cart.php?a=confproduct&i=0",
+      "chain": [
+        {
+          "url": "https://bwh81.net/aff.php?aff=81595&pid=173",
+          "status": 302,
+          "location": "cart.php?a=add&pid=173"
+        },
+        {
+          "url": "https://bwh81.net/cart.php?a=add&pid=173",
+          "status": 302,
+          "location": "/cart.php?a=confproduct&i=0"
+        },
+        {
+          "url": "https://bwh81.net/cart.php?a=confproduct&i=0",
+          "status": 200
+        }
+      ],
+      "title": "",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "AUTO_TRANSLATE",
+        "WHMCSSQgkVapT0KwS",
+        "WHMCSAffiliateID",
+        "PHPSESSID"
+      ],
+      "durationMs": 673,
+      "occurrences": 1,
+      "labels": [
+        "直达此套餐"
+      ],
+      "affiliate": {
+        "vendor": "搬瓦工",
+        "key": "aff",
+        "code": "81595",
+        "sourceValue": "81595",
+        "sourceMatches": true,
+        "trackingCookies": [
+          "WHMCSAffiliateID"
+        ]
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": true,
+        "productName": "VPS - Self-managed - SPECIAL 40G KVM PROMO V5 - SINGAPORE CN2 GIA"
+      }
+    },
+    {
+      "url": "https://bwh81.net/aff.php?aff=81595&pid=95",
+      "status": 200,
+      "finalUrl": "https://bwh81.net/cart.php?a=confproduct&i=0",
+      "chain": [
+        {
+          "url": "https://bwh81.net/aff.php?aff=81595&pid=95",
+          "status": 302,
+          "location": "cart.php?a=add&pid=95"
+        },
+        {
+          "url": "https://bwh81.net/cart.php?a=add&pid=95",
+          "status": 302,
+          "location": "/cart.php?a=confproduct&i=0"
+        },
+        {
+          "url": "https://bwh81.net/cart.php?a=confproduct&i=0",
+          "status": 200
+        }
+      ],
+      "title": "",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "AUTO_TRANSLATE",
+        "WHMCSSQgkVapT0KwS",
+        "WHMCSAffiliateID",
+        "PHPSESSID"
+      ],
+      "durationMs": 1165,
+      "occurrences": 1,
+      "labels": [
+        "直达此套餐"
+      ],
+      "affiliate": {
+        "vendor": "搬瓦工",
+        "key": "aff",
+        "code": "81595",
+        "sourceValue": "81595",
+        "sourceMatches": true,
+        "trackingCookies": [
+          "WHMCSAffiliateID"
+        ]
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": true,
+        "productName": "VPS - Self-managed - SPECIAL 40G KVM PROMO V5 - HONG KONG CN2 GIA"
+      }
+    },
+    {
+      "url": "https://bwh81.net/aff.php?aff=81595&pid=134",
+      "status": 200,
+      "finalUrl": "https://bwh81.net/cart.php?a=confproduct&i=0",
+      "chain": [
+        {
+          "url": "https://bwh81.net/aff.php?aff=81595&pid=134",
+          "status": 302,
+          "location": "cart.php?a=add&pid=134"
+        },
+        {
+          "url": "https://bwh81.net/cart.php?a=add&pid=134",
+          "status": 302,
+          "location": "/cart.php?a=confproduct&i=0"
+        },
+        {
+          "url": "https://bwh81.net/cart.php?a=confproduct&i=0",
+          "status": 200
+        }
+      ],
+      "title": "",
+      "blocked": false,
+      "contentType": "text/html; charset=utf-8",
+      "cookieNames": [
+        "AUTO_TRANSLATE",
+        "WHMCSSQgkVapT0KwS",
+        "WHMCSAffiliateID",
+        "PHPSESSID"
+      ],
+      "durationMs": 1192,
+      "occurrences": 1,
+      "labels": [
+        "直达此套餐"
+      ],
+      "affiliate": {
+        "vendor": "搬瓦工",
+        "key": "aff",
+        "code": "81595",
+        "sourceValue": "81595",
+        "sourceMatches": true,
+        "trackingCookies": [
+          "WHMCSAffiliateID"
+        ]
+      },
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": true,
+        "productName": "VPS - Self-managed - SPECIAL 40G KVM PROMO V5 - OSAKA CN2 GIA"
+      }
+    },
+    {
+      "url": "https://youtu.be/dQO0tH9XIgY",
+      "finalUrl": "https://youtu.be/dQO0tH9XIgY",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 142.251.46.78:443",
+      "durationMs": 21045,
+      "occurrences": 1,
+      "labels": [
+        "VPN搭建 Panstar 演示"
+      ],
+      "affiliate": null,
+      "softError": false,
+      "pageFindings": {
+        "outOfStock": false,
+        "productConfigurationShown": false
+      }
+    }
+  ],
+  "internal": [
+    {
+      "url": "http://127.0.0.1:8000/recommend/1-vps/#vps-vendors",
+      "hash": "vps-vendors",
+      "occurrences": 1,
+      "local": {
+        "url": "http://127.0.0.1:8000/recommend/1-vps/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/recommend/1-vps/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/recommend/1-vps/",
+            "status": 200
+          }
+        ],
+        "title": "VPS 云服务器 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 3,
+        "anchorFound": true
+      },
+      "deployed": {
+        "url": "https://kjxv.net/recommend/1-vps/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/recommend/1-vps/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/recommend/1-vps/",
+            "status": 200
+          }
+        ],
+        "title": "VPS 云服务器 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1702,
+        "anchorFound": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/recommend/1-vps/#vps-regions",
+      "hash": "vps-regions",
+      "occurrences": 1,
+      "local": {
+        "url": "http://127.0.0.1:8000/recommend/1-vps/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/recommend/1-vps/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/recommend/1-vps/",
+            "status": 200
+          }
+        ],
+        "title": "VPS 云服务器 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 3,
+        "anchorFound": true
+      },
+      "deployed": {
+        "url": "https://kjxv.net/recommend/1-vps/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/recommend/1-vps/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/recommend/1-vps/",
+            "status": 200
+          }
+        ],
+        "title": "VPS 云服务器 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1702,
+        "anchorFound": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/recommend/1-vps/#vps-budgets",
+      "hash": "vps-budgets",
+      "occurrences": 1,
+      "local": {
+        "url": "http://127.0.0.1:8000/recommend/1-vps/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/recommend/1-vps/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/recommend/1-vps/",
+            "status": 200
+          }
+        ],
+        "title": "VPS 云服务器 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 3,
+        "anchorFound": true
+      },
+      "deployed": {
+        "url": "https://kjxv.net/recommend/1-vps/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/recommend/1-vps/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/recommend/1-vps/",
+            "status": 200
+          }
+        ],
+        "title": "VPS 云服务器 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1702,
+        "anchorFound": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/nodemach/",
+      "hash": "",
+      "occurrences": 3,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/nodemach/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/nodemach/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/nodemach/",
+            "status": 200
+          }
+        ],
+        "title": "NodeMach 注册与购买图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 4,
+        "anchorFound": null
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/nodemach/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/nodemach/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/nodemach/",
+            "status": 200
+          }
+        ],
+        "title": "NodeMach 注册与购买图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1071,
+        "anchorFound": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/vmiss/",
+      "hash": "",
+      "occurrences": 6,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/vmiss/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/vmiss/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/vmiss/",
+            "status": 200
+          }
+        ],
+        "title": "VMiss VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 1,
+        "anchorFound": null
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/vmiss/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/vmiss/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/vmiss/",
+            "status": 200
+          }
+        ],
+        "title": "VMiss VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 707,
+        "anchorFound": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/jtti/",
+      "hash": "",
+      "occurrences": 1,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/jtti/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/jtti/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/jtti/",
+            "status": 200
+          }
+        ],
+        "title": "JTTI VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 4,
+        "anchorFound": null
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/jtti/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/jtti/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/jtti/",
+            "status": 200
+          }
+        ],
+        "title": "JTTI VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1818,
+        "anchorFound": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/jtti/#jtti-hk",
+      "hash": "jtti-hk",
+      "occurrences": 2,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/jtti/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/jtti/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/jtti/",
+            "status": 200
+          }
+        ],
+        "title": "JTTI VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 4,
+        "anchorFound": true
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/jtti/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/jtti/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/jtti/",
+            "status": 200
+          }
+        ],
+        "title": "JTTI VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1818,
+        "anchorFound": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/jtti/#jtti-jp",
+      "hash": "jtti-jp",
+      "occurrences": 2,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/jtti/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/jtti/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/jtti/",
+            "status": 200
+          }
+        ],
+        "title": "JTTI VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 4,
+        "anchorFound": true
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/jtti/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/jtti/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/jtti/",
+            "status": 200
+          }
+        ],
+        "title": "JTTI VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1818,
+        "anchorFound": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/recommend/",
+      "hash": "",
+      "occurrences": 1,
+      "local": {
+        "url": "http://127.0.0.1:8000/recommend/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/recommend/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/recommend/",
+            "status": 200
+          }
+        ],
+        "title": "推荐资源 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 42,
+        "anchorFound": null
+      },
+      "deployed": {
+        "url": "https://kjxv.net/recommend/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/recommend/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/recommend/",
+            "status": 200
+          }
+        ],
+        "title": "推荐资源 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 4259,
+        "anchorFound": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/bwg/",
+      "hash": "",
+      "occurrences": 6,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/bwg/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/bwg/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/bwg/",
+            "status": 200
+          }
+        ],
+        "title": "搬瓦工 VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 4,
+        "anchorFound": null
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/bwg/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/bwg/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/bwg/",
+            "status": 200
+          }
+        ],
+        "title": "搬瓦工 VPS 购买与首次使用图文教程 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 2644,
+        "anchorFound": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/panstar/",
+      "hash": "",
+      "occurrences": 3,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/panstar/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/panstar/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/panstar/",
+            "status": 200
+          }
+        ],
+        "title": "Panstar 注册与套餐选购指引 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 2,
+        "anchorFound": null
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/panstar/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/panstar/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/panstar/",
+            "status": 200
+          }
+        ],
+        "title": "Panstar 注册与套餐选购指引 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1101,
+        "anchorFound": null
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/panstar/#panstar-de",
+      "hash": "panstar-de",
+      "occurrences": 2,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/panstar/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/panstar/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/panstar/",
+            "status": 200
+          }
+        ],
+        "title": "Panstar 注册与套餐选购指引 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 2,
+        "anchorFound": true
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/panstar/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/panstar/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/panstar/",
+            "status": 200
+          }
+        ],
+        "title": "Panstar 注册与套餐选购指引 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1101,
+        "anchorFound": true
+      }
+    },
+    {
+      "url": "http://127.0.0.1:8000/tutorials/panstar/#panstar-us",
+      "hash": "panstar-us",
+      "occurrences": 1,
+      "local": {
+        "url": "http://127.0.0.1:8000/tutorials/panstar/",
+        "status": 200,
+        "finalUrl": "http://127.0.0.1:8000/tutorials/panstar/",
+        "chain": [
+          {
+            "url": "http://127.0.0.1:8000/tutorials/panstar/",
+            "status": 200
+          }
+        ],
+        "title": "Panstar 注册与套餐选购指引 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html",
+        "cookieNames": [],
+        "durationMs": 2,
+        "anchorFound": true
+      },
+      "deployed": {
+        "url": "https://kjxv.net/tutorials/panstar/",
+        "status": 200,
+        "finalUrl": "https://kjxv.net/tutorials/panstar/",
+        "chain": [
+          {
+            "url": "https://kjxv.net/tutorials/panstar/",
+            "status": 200
+          }
+        ],
+        "title": "Panstar 注册与套餐选购指引 - 小V博客",
+        "blocked": false,
+        "contentType": "text/html; charset=utf-8",
+        "cookieNames": [],
+        "durationMs": 1101,
+        "anchorFound": true
+      }
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D15nfkz7M4Hk%26t%3D134s",
+      "finalUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D15nfkz7M4Hk%26t%3D134s",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 2001::1:443",
+      "durationMs": 23545,
+      "originalUrl": "https://www.youtube.com/watch?v=15nfkz7M4Hk&t=134s",
+      "publicEmbedConfirmed": false
+    },
+    {
+      "url": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fyoutu.be%2Frl2b9WKhySk",
+      "finalUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fyoutu.be%2Frl2b9WKhySk",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 2001::1:443",
+      "durationMs": 23546,
+      "originalUrl": "https://youtu.be/rl2b9WKhySk",
+      "publicEmbedConfirmed": false
+    },
+    {
+      "url": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvnPZRPD6AB8",
+      "finalUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DvnPZRPD6AB8",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 2001::1:443",
+      "durationMs": 23546,
+      "originalUrl": "https://www.youtube.com/watch?v=vnPZRPD6AB8",
+      "publicEmbedConfirmed": false
+    },
+    {
+      "url": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fyoutu.be%2FdQO0tH9XIgY",
+      "finalUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fyoutu.be%2FdQO0tH9XIgY",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 2001::1:443",
+      "durationMs": 23504,
+      "originalUrl": "https://youtu.be/dQO0tH9XIgY",
+      "publicEmbedConfirmed": false
+    },
+    {
+      "url": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV7AN_wtpaDQ%26t%3D4s",
+      "finalUrl": "https://www.youtube.com/oembed?format=json&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DV7AN_wtpaDQ%26t%3D4s",
+      "chain": [],
+      "error": "apiRequestContext.get: connect ETIMEDOUT 2001::1:443",
+      "durationMs": 23520,
+      "originalUrl": "https://www.youtube.com/watch?v=V7AN_wtpaDQ&t=4s",
+      "publicEmbedConfirmed": false
+    }
+  ],
+  "completed": true
+}

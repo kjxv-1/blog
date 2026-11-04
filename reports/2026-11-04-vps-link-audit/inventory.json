@@ -1,0 +1,408 @@
+{
+  "scope": "docs/recommend/1-vps/index.md (including inserted video snippets)",
+  "date": "2026-11-04",
+  "items": [
+    {
+      "occurrence": 1,
+      "label": "← 返回推荐资源",
+      "href": "http://127.0.0.1:8000/recommend/",
+      "rawHref": "../"
+    },
+    {
+      "occurrence": 2,
+      "label": "厂商与搭建视频",
+      "href": "http://127.0.0.1:8000/recommend/1-vps/#vps-vendors",
+      "rawHref": "#vps-vendors"
+    },
+    {
+      "occurrence": 3,
+      "label": "各地区当前首选",
+      "href": "http://127.0.0.1:8000/recommend/1-vps/#vps-regions",
+      "rawHref": "#vps-regions"
+    },
+    {
+      "occurrence": 4,
+      "label": "按预算比较套餐",
+      "href": "http://127.0.0.1:8000/recommend/1-vps/#vps-budgets",
+      "rawHref": "#vps-budgets"
+    },
+    {
+      "occurrence": 5,
+      "label": "官网／注册入口",
+      "href": "https://bwh81.net/aff.php?aff=81595",
+      "rawHref": "https://bwh81.net/aff.php?aff=81595"
+    },
+    {
+      "occurrence": 6,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/bwg/",
+      "rawHref": "../../tutorials/bwg/"
+    },
+    {
+      "occurrence": 7,
+      "label": "跨境直播网络搭建",
+      "href": "https://www.youtube.com/watch?v=vnPZRPD6AB8",
+      "rawHref": "https://www.youtube.com/watch?v=vnPZRPD6AB8"
+    },
+    {
+      "occurrence": 8,
+      "label": "官网／注册入口",
+      "href": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "rawHref": "https://www.nodemach.com/welcome?vcd=9467e966"
+    },
+    {
+      "occurrence": 9,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/nodemach/",
+      "rawHref": "../../tutorials/nodemach/"
+    },
+    {
+      "occurrence": 10,
+      "label": "VPN搭建 Nodemach演示",
+      "href": "https://youtu.be/rl2b9WKhySk",
+      "rawHref": "https://youtu.be/rl2b9WKhySk"
+    },
+    {
+      "occurrence": 11,
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/?k=T7KBH7",
+      "rawHref": "https://www.jtti.cc?k=T7KBH7"
+    },
+    {
+      "occurrence": 12,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/jtti/",
+      "rawHref": "../../tutorials/jtti/"
+    },
+    {
+      "occurrence": 13,
+      "label": "VPN搭建 JT 演示",
+      "href": "https://www.youtube.com/watch?v=15nfkz7M4Hk&t=134s",
+      "rawHref": "https://www.youtube.com/watch?v=15nfkz7M4Hk&t=134s"
+    },
+    {
+      "occurrence": 14,
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "rawHref": "https://app.vmiss.com/aff.php?aff=3992"
+    },
+    {
+      "occurrence": 15,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/vmiss/",
+      "rawHref": "../../tutorials/vmiss/"
+    },
+    {
+      "occurrence": 16,
+      "label": "VPN搭建 Vmiss 演示",
+      "href": "https://www.youtube.com/watch?v=V7AN_wtpaDQ&t=4s",
+      "rawHref": "https://www.youtube.com/watch?v=V7AN_wtpaDQ&t=4s"
+    },
+    {
+      "occurrence": 17,
+      "label": "官网／注册入口",
+      "href": "https://panstar.ai/register?aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/register?aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 18,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/panstar/",
+      "rawHref": "../../tutorials/panstar/"
+    },
+    {
+      "occurrence": 19,
+      "label": "VPN搭建 Panstar 演示",
+      "href": "https://youtu.be/dQO0tH9XIgY",
+      "rawHref": "https://youtu.be/dQO0tH9XIgY"
+    },
+    {
+      "occurrence": 20,
+      "label": "官网／注册入口",
+      "href": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "rawHref": "https://www.nodemach.com/welcome?vcd=9467e966"
+    },
+    {
+      "occurrence": 21,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/nodemach/",
+      "rawHref": "../../tutorials/nodemach/"
+    },
+    {
+      "occurrence": 22,
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "rawHref": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7"
+    },
+    {
+      "occurrence": 23,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/jtti/#jtti-hk",
+      "rawHref": "../../tutorials/jtti/#jtti-hk"
+    },
+    {
+      "occurrence": 24,
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "rawHref": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7"
+    },
+    {
+      "occurrence": 25,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/jtti/#jtti-jp",
+      "rawHref": "../../tutorials/jtti/#jtti-jp"
+    },
+    {
+      "occurrence": 26,
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 27,
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/activities?aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 28,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/panstar/",
+      "rawHref": "../../tutorials/panstar/"
+    },
+    {
+      "occurrence": 29,
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 30,
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/activities?aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 31,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/panstar/#panstar-de",
+      "rawHref": "../../tutorials/panstar/#panstar-de"
+    },
+    {
+      "occurrence": 32,
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=87",
+      "rawHref": "https://bwh81.net/aff.php?aff=81595&pid=87"
+    },
+    {
+      "occurrence": 33,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/bwg/",
+      "rawHref": "../../tutorials/bwg/"
+    },
+    {
+      "occurrence": 34,
+      "label": "官网／注册入口",
+      "href": "https://www.nodemach.com/welcome?vcd=9467e966",
+      "rawHref": "https://www.nodemach.com/welcome?vcd=9467e966"
+    },
+    {
+      "occurrence": 35,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/nodemach/",
+      "rawHref": "../../tutorials/nodemach/"
+    },
+    {
+      "occurrence": 36,
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "rawHref": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7"
+    },
+    {
+      "occurrence": 37,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/jtti/#jtti-jp",
+      "rawHref": "../../tutorials/jtti/#jtti-jp"
+    },
+    {
+      "occurrence": 38,
+      "label": "官网／注册入口",
+      "href": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7",
+      "rawHref": "https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7"
+    },
+    {
+      "occurrence": 39,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/jtti/#jtti-hk",
+      "rawHref": "../../tutorials/jtti/#jtti-hk"
+    },
+    {
+      "occurrence": 40,
+      "label": "官网／注册入口",
+      "href": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+      "rawHref": "https://www.hncloud.com/light_cloud.html?k=kejixiaov"
+    },
+    {
+      "occurrence": 41,
+      "label": "官网／注册入口",
+      "href": "https://www.hncloud.com/light_cloud.html?k=kejixiaov",
+      "rawHref": "https://www.hncloud.com/light_cloud.html?k=kejixiaov"
+    },
+    {
+      "occurrence": 42,
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 43,
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/activities?aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 44,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/panstar/#panstar-us",
+      "rawHref": "../../tutorials/panstar/#panstar-us"
+    },
+    {
+      "occurrence": 45,
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 46,
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/activities?aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 47,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/panstar/#panstar-de",
+      "rawHref": "../../tutorials/panstar/#panstar-de"
+    },
+    {
+      "occurrence": 48,
+      "label": "直达此套餐",
+      "href": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 49,
+      "label": "官方优惠码 领取网址",
+      "href": "https://panstar.ai/activities?aff=DCAD1VCH",
+      "rawHref": "https://panstar.ai/activities?aff=DCAD1VCH"
+    },
+    {
+      "occurrence": 50,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/panstar/",
+      "rawHref": "../../tutorials/panstar/"
+    },
+    {
+      "occurrence": 51,
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=44",
+      "rawHref": "https://bwh81.net/aff.php?aff=81595&pid=44"
+    },
+    {
+      "occurrence": 52,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/bwg/",
+      "rawHref": "../../tutorials/bwg/"
+    },
+    {
+      "occurrence": 53,
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "rawHref": "https://app.vmiss.com/aff.php?aff=3992"
+    },
+    {
+      "occurrence": 54,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/vmiss/",
+      "rawHref": "../../tutorials/vmiss/"
+    },
+    {
+      "occurrence": 55,
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "rawHref": "https://app.vmiss.com/aff.php?aff=3992"
+    },
+    {
+      "occurrence": 56,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/vmiss/",
+      "rawHref": "../../tutorials/vmiss/"
+    },
+    {
+      "occurrence": 57,
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "rawHref": "https://app.vmiss.com/aff.php?aff=3992"
+    },
+    {
+      "occurrence": 58,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/vmiss/",
+      "rawHref": "../../tutorials/vmiss/"
+    },
+    {
+      "occurrence": 59,
+      "label": "官网／注册入口",
+      "href": "https://app.vmiss.com/aff.php?aff=3992",
+      "rawHref": "https://app.vmiss.com/aff.php?aff=3992"
+    },
+    {
+      "occurrence": 60,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/vmiss/",
+      "rawHref": "../../tutorials/vmiss/"
+    },
+    {
+      "occurrence": 61,
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=173",
+      "rawHref": "https://bwh81.net/aff.php?aff=81595&pid=173"
+    },
+    {
+      "occurrence": 62,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/bwg/",
+      "rawHref": "../../tutorials/bwg/"
+    },
+    {
+      "occurrence": 63,
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=134",
+      "rawHref": "https://bwh81.net/aff.php?aff=81595&pid=134"
+    },
+    {
+      "occurrence": 64,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/bwg/",
+      "rawHref": "../../tutorials/bwg/"
+    },
+    {
+      "occurrence": 65,
+      "label": "直达此套餐",
+      "href": "https://bwh81.net/aff.php?aff=81595&pid=95",
+      "rawHref": "https://bwh81.net/aff.php?aff=81595&pid=95"
+    },
+    {
+      "occurrence": 66,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/bwg/",
+      "rawHref": "../../tutorials/bwg/"
+    },
+    {
+      "occurrence": 67,
+      "label": "购买与首次使用教程",
+      "href": "http://127.0.0.1:8000/tutorials/vmiss/",
+      "rawHref": "../../tutorials/vmiss/"
+    }
+  ]
+}

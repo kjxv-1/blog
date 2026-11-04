@@ -1,0 +1,18 @@
+{
+  "total": 67,
+  "commercialOccurrences": 32,
+  "commercialUnique": 16,
+  "matchingAffiliateOccurrences": 32,
+  "internalOccurrences": 30,
+  "internalUnique": 13,
+  "allInternalPass": true,
+  "videosConfirmed": 5,
+  "commercialHttp200": 14,
+  "commercialBlocked": 2,
+  "outOfStockPids": [
+    "87",
+    "44"
+  ],
+  "websiteSourceSha256": "685178d7fed92d0b38594d119190b0f622e87b378295a9d36c8f26180806ac79",
+  "websiteContentChanged": false
+}

@@ -1,0 +1,13 @@
+VPS 推荐文档链接检查已完成，报告已保存。
+已安排在约45秒后执行正常关机：shutdown.exe /s /t 0。
+关机后台任务进程：52968
+正在发出正常关机指令。
+shutdown.exe : 操作系统找不到已输入的环境选项。(203)
+所在位置 行:4 字符: 19
++ ... utdownOutput = & "$env:SystemRoot\System32\shutdown.exe" /s /t 0 2>&1
++                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (操作系统找不到已输入的环境选项。(203):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+关机命令退出码：203
