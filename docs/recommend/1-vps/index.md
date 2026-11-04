@@ -51,7 +51,6 @@ hide:
   .vps-recommend-page table th:nth-child(7) { width: 20%; }
   .vps-recommend-page table td:first-child strong { white-space: nowrap; }
   .vps-recommend-page table small { color: var(--site-muted); font-size: .62rem; }
-  .vps-recommend-page .vps-stock { display: inline-block; margin-bottom: .2rem; padding: .05rem .35rem; border: 1px solid var(--site-line); border-radius: .2rem; color: var(--site-muted); font-size: .6rem; }
   @media screen and (max-width: 50em) {
     .vps-recommend-page .vps-vendors__head { display: none; }
     .vps-recommend-page .vps-vendor { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: .5rem; }
@@ -80,8 +79,8 @@ hide:
 
 <div class="vps-vendors__head">
   <span>厂商介绍</span>
-  <span>官网／注册</span>
-  <span>购买指引（图文教程）</span>
+  <span>官网／注册入口</span>
+  <span>购买与首次使用教程</span>
   <span>相关视频演示</span>
 </div>
 
@@ -149,72 +148,73 @@ hide:
 
 ## 📍 各地区当前首选 { #vps-regions }
 
-<p class="vps-section-note">每个地区先列一款兼顾价格与配置的套餐，供快速比较；网络效果仍需结合本地运营商测试。整理日期：2026 年 11 月 4 日。以下沿用本站既有套餐资料，实时库存待核实，价格和优惠以结算页面为准。</p>
+<p class="vps-section-note">每个地区先列一款兼顾价格与配置的套餐，供快速比较；网络效果仍需结合本地运营商测试。整理日期：2026 年 11 月 4 日。以下沿用本站既有套餐资料，价格和优惠以结算页面为准。</p>
 
 <!-- 地区首选与预算表引用同一套餐时，更新请同时核对配置、价格和入口。 -->
+<!-- 话术维护：具体商品链接统一“直达此套餐”；其余购买入口统一“官网／注册入口”；教程链接统一“购买与首次使用教程”，每行同一篇只保留一个入口；不添加库存状态标签。 -->
 
-| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 官网/购买链接 | 图文教程<br>&优惠码 |
+| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买与首次使用教程 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **NodeMach** | 1核2GB<br>1000Mbps带宽<br>1000GB流量/月 | 电信CN2 GIA<br>联通4837 | 美国 | 9.99美元/月 | [官网／注册入口](https://www.nodemach.com/welcome?vcd=9467e966)<br><small>注册后按教程选购</small> | 邀请注册永久95折<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Nodemach/index.md) |
-| **JTTI**<br>香港轻量云<br><span class="vps-stock">库存待核实</span> | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | **香港** | 12.99美元/月<br><small>截图参考价</small> | [进入选购](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>进入后按教程选配置</small> | 暂无优惠码<br>[香港购买指引](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-hk)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-first-use) |
-| **JTTI**<br>日本轻量云<br><span class="vps-stock">截图：补货中</span> | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | **日本** | 12.61美元/月<br><small>截图参考价</small> | [进入选购](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>进入后按教程选配置</small> | 暂无优惠码<br>[日本购买指引](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-jp)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-first-use) |
+| **NodeMach** | 1核2GB<br>1000Mbps带宽<br>1000GB流量/月 | 电信CN2 GIA<br>联通4837 | 美国 | 9.99美元/月 | [官网／注册入口](https://www.nodemach.com/welcome?vcd=9467e966)<br><small>按推荐配置选购</small> | 邀请注册永久95折<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Nodemach/index.md) |
+| **JTTI**<br>香港轻量云 | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | **香港** | 12.99美元/月<br><small>截图参考价</small> | [官网／注册入口](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>按推荐配置选购</small> | 暂无优惠码<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-hk)|
+| **JTTI**<br>日本轻量云 | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | **日本** | 12.61美元/月<br><small>截图参考价</small> | [官网／注册入口](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>按推荐配置选购</small> | 暂无优惠码<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-jp)|
 | **Panstar**<br>新加坡（普通线路） | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 国际宽带 | 新加坡 | <strong class="vps-highlight">4.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md) |
-| **Panstar**<br>德国9929<br><span class="vps-stock">库存待核实</span> | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 9929 | **德国** | <strong class="vps-highlight">6.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-de) |
+| **Panstar**<br>德国9929 | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 9929 | **德国** | <strong class="vps-highlight">6.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-de) |
 
 ## 💰 按预算比较套餐 { #vps-budgets }
 
-<p class="vps-section-note">“直达此套餐”保留具体产品及推广参数；“邀请注册”或“进入选购”需要按同一行的教程继续选择。表内价格为原有记录，优惠适用条件、库存与最终金额请在下单前核对。窄屏可左右滑动表格。</p>
+<p class="vps-section-note">点击“直达此套餐”可查看对应配置；点击“官网／注册入口”后，按同一行的“购买与首次使用教程”选择配置。表内价格为原有记录，优惠适用条件、库存与最终金额请在下单前核对。窄屏可左右滑动表格。</p>
 
 ### 🥇 90–120元/月 · 精品线路与多机房
 
 适合预算较充足、看重线路及机房迁移灵活性的用户。价格按实际付款周期列出。
 
-| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买教程指引 |
+| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买与首次使用教程 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **搬瓦工（BWG）**<br>商务套餐 | 2核1GB<br><strong class="vps-highlight">2.5Gbps带宽</strong><br><strong class="vps-highlight">1000GB流量/月</strong> | CN2 GIA / CMIN2 / CUP<br>依具体机房 | 美国等15个机房 | 49.99美元/季<br>169.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=87) | [购买与首次使用](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
+| **搬瓦工（BWG）**<br>商务套餐 | 2核1GB<br><strong class="vps-highlight">2.5Gbps带宽</strong><br><strong class="vps-highlight">1000GB流量/月</strong> | CN2 GIA / CMIN2 / CUP<br>依具体机房 | 美国等15个机房 | 49.99美元/季<br>169.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=87) | [购买与首次使用教程](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
 
 ### 🥈 50–100元/月 · 流量与价格兼顾
 
 适合有一定流量需求的用户。请按地区、线路和付款周期选择；JTTI 价格为本次购买教程中的截图参考价。
 
-| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买教程指引 |
+| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买与首次使用教程 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **NodeMach** | 1核2GB<br>1000Mbps带宽<br>1000GB流量/月 | 电信CN2 GIA<br>联通4837 | 美国 | 9.99美元/月 | [本站](https://www.nodemach.com/welcome?vcd=9467e966)<br><small>注册后按教程选购</small> | 邀请注册永久95折<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Nodemach/index.md) |
-| **JTTI**<br>日本轻量云 | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | 日本 | 12.61美元/月<br><small>截图参考价</small> | [进入选购](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>进入后按教程选配置</small> | 无本站专属优惠<br>[日本购买指引](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-jp)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-first-use) |
-| **JTTI**<br>香港轻量云 | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | 香港 | 12.99美元/月<br><small>截图参考价</small> | [进入选购](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>进入后按教程选配置</small> | 无本站专属优惠<br>[香港购买指引](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-hk)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-first-use) |
-| **华纳云** | 1核1GB<br>200Mbps带宽<br>800GB流量/月 | 中国优化 | 日本 | 68.4元/月<br>136.80元/季度 | [进入选购](https://www.hncloud.com/light_cloud.html?k=kejixiaov)<br><small>需手动选择套餐</small> | 本页未列优惠码<br>选择日本、1核1GB<br>核对200Mbps与800GB流量 |
-| **华纳云** | 1核1GB<br>200Mbps带宽<br>800GB流量/月 | 中国优化 | 香港 | 70.4元/月<br>140.80元/季度 | [进入选购](https://www.hncloud.com/light_cloud.html?k=kejixiaov)<br><small>需手动选择套餐</small> | 本页未列优惠码<br>选择香港、1核1GB<br>核对200Mbps与800GB流量 |
+| **NodeMach** | 1核2GB<br>1000Mbps带宽<br>1000GB流量/月 | 电信CN2 GIA<br>联通4837 | 美国 | 9.99美元/月 | [官网／注册入口](https://www.nodemach.com/welcome?vcd=9467e966)<br><small>按推荐配置选购</small> | 邀请注册永久95折<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Nodemach/index.md) |
+| **JTTI**<br>日本轻量云 | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | 日本 | 12.61美元/月<br><small>截图参考价</small> | [官网／注册入口](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>按推荐配置选购</small> | 无本站专属优惠<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-jp)|
+| **JTTI**<br>香港轻量云 | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | 香港 | 12.99美元/月<br><small>截图参考价</small> | [官网／注册入口](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>按推荐配置选购</small> | 无本站专属优惠<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-hk)|
+| **华纳云** | 1核1GB<br>200Mbps带宽<br>800GB流量/月 | 中国优化 | 日本 | 68.4元/月<br>136.80元/季度 | [官网／注册入口](https://www.hncloud.com/light_cloud.html?k=kejixiaov)<br><small>按推荐配置选购</small> | 本页未列优惠码<br>选择日本、1核1GB<br>核对200Mbps与800GB流量 |
+| **华纳云** | 1核1GB<br>200Mbps带宽<br>800GB流量/月 | 中国优化 | 香港 | 70.4元/月<br>140.80元/季度 | [官网／注册入口](https://www.hncloud.com/light_cloud.html?k=kejixiaov)<br><small>按推荐配置选购</small> | 本页未列优惠码<br>选择香港、1核1GB<br>核对200Mbps与800GB流量 |
 
 ### 🥉 50元/月以下 · 低预算选择
 
-先确认目标地区与运营商线路，再比较流量和付款周期。原记录缺货的套餐保留作对照。
+先确认目标地区与运营商线路，再比较流量和付款周期。
 
-| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买教程指引 |
+| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买与首次使用教程 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Panstar**<br>美国精品 | 1核768MB<br>300Mbps带宽<br><strong class="vps-highlight">512GB流量/月</strong> | CN2 / 9929 / CMIN2 | 美国洛杉矶 | <strong class="vps-highlight">5.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[美国选购指引](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-us) |
-| **Panstar**<br>德国 9929 | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 9929 | 德国 | <strong class="vps-highlight">6.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[德国选购指引](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-de) |
+| **Panstar**<br>美国精品 | 1核768MB<br>300Mbps带宽<br><strong class="vps-highlight">512GB流量/月</strong> | CN2 / 9929 / CMIN2 | 美国洛杉矶 | <strong class="vps-highlight">5.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-us) |
+| **Panstar**<br>德国 9929 | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 9929 | 德国 | <strong class="vps-highlight">6.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-de) |
 | **Panstar**<br>新加坡（普通线路） | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 国际宽带 | 新加坡 | <strong class="vps-highlight">4.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md) |
-| **搬瓦工（BWG）**<br>基础套餐 | 2核1GB<br>1Gbps带宽<br><strong class="vps-highlight">1000GB流量/月</strong> | 普通国际带宽 | 美国等6个机房 | 49.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=44) | [购买与首次使用](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
-| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>300GB流量/月 | CN2 GIA<br>适合电信用户 | 美国洛杉矶 | 6加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－CN2 GIA”<br>[选购步骤](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
-| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>400GB流量/月 | CMIN2<br>适合移动用户 | 美国洛杉矶 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－CMIN2”<br>[选购步骤](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
-| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>500GB流量/月 | 9929<br>适合联通用户 | 美国洛杉矶 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－9929”<br>[选购步骤](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
-| **VMiss** | 1核1GB<br>200Mbps带宽<br>500GB流量/月 | 国际带宽<br>BGP三网融合 | 香港／日本东京 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“中国－香港－BGP”或“日本－东京－BGP”<br>[选购步骤](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
+| **搬瓦工（BWG）**<br>基础套餐 | 2核1GB<br>1Gbps带宽<br><strong class="vps-highlight">1000GB流量/月</strong> | 普通国际带宽 | 美国等6个机房 | 49.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=44) | [购买与首次使用教程](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
+| **VMiss** | 1核1GB<br>200Mbps带宽<br>300GB流量/月 | CN2 GIA<br>适合电信用户 | 美国洛杉矶 | 6加元/月 | [官网／注册入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>按推荐配置选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－CN2 GIA”<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
+| **VMiss** | 1核1GB<br>200Mbps带宽<br>400GB流量/月 | CMIN2<br>适合移动用户 | 美国洛杉矶 | 5加元/月 | [官网／注册入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>按推荐配置选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－CMIN2”<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
+| **VMiss** | 1核1GB<br>200Mbps带宽<br>500GB流量/月 | 9929<br>适合联通用户 | 美国洛杉矶 | 5加元/月 | [官网／注册入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>按推荐配置选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－9929”<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
+| **VMiss** | 1核1GB<br>200Mbps带宽<br>500GB流量/月 | 国际带宽<br>BGP三网融合 | 香港／日本东京 | 5加元/月 | [官网／注册入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>按推荐配置选购</small> | 优惠码：`10%OFF`<br>左侧选“中国－香港－BGP”或“日本－东京－BGP”<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
 
 ### 🏆 350元/月以上 · 指定地区精品线路
 
 适合有香港、新加坡或日本地区要求、预算较高的用户。留意月付与年付的实际支出差异。
 
-| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买教程指引 |
+| 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买与首次使用教程 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **搬瓦工（BWG）**<br>商务套餐 | 2核2GB<br><strong class="vps-highlight">1.5Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong> | CN2 GIA | 新加坡 | 49.99美元/月<br>499.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=173) | [购买与首次使用](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
-| **搬瓦工（BWG）**<br>商务套餐 | 2核2GB<br><strong class="vps-highlight">1.5Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong> | CN2 GIA | 日本大阪 | 49.99美元/月<br>499.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=134) | [购买与首次使用](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
-| **搬瓦工（BWG）**<br>商务套餐 | 2核2GB<br><strong class="vps-highlight">1Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong> | CN2 GIA / 9929 / CMIN2 | 香港 | 89.99美元/月<br>899.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=95) | [购买与首次使用](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
+| **搬瓦工（BWG）**<br>商务套餐 | 2核2GB<br><strong class="vps-highlight">1.5Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong> | CN2 GIA | 新加坡 | 49.99美元/月<br>499.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=173) | [购买与首次使用教程](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
+| **搬瓦工（BWG）**<br>商务套餐 | 2核2GB<br><strong class="vps-highlight">1.5Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong> | CN2 GIA | 日本大阪 | 49.99美元/月<br>499.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=134) | [购买与首次使用教程](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
+| **搬瓦工（BWG）**<br>商务套餐 | 2核2GB<br><strong class="vps-highlight">1Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong> | CN2 GIA / 9929 / CMIN2 | 香港 | 89.99美元/月<br>899.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=95) | [购买与首次使用教程](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
 
-### 🛒 VMiss 选购步骤 { #buy-vmiss }
+### 🛒 VMiss 购买与首次使用教程 { #buy-vmiss }
 
-📖 [查看 VMiss 购买与首次使用图文教程](../../tutorials/posts/Buy-Guide-Vmiss/index.md)，按线路分类图和步骤说明继续操作。
+📖 [购买与首次使用教程](../../tutorials/posts/Buy-Guide-Vmiss/index.md)，按线路分类图和步骤说明继续操作。
 
-1. 通过上方的邀请入口打开网站，注册或登录账户。
+1. 通过上方的官网／注册入口打开网站，注册或登录账户。
 2. 按推荐行的地区与线路选择左侧产品分类，例如“美国－洛杉矶－CN2 GIA”。
 3. 对照该行的 CPU、内存、带宽与流量选择套餐；同一地区的不同线路不要混选。
 4. 结算时尝试填写 `10%OFF`，确认优惠是否适用、最终金额及付款周期，再提交订单。若缺货，可稍后查看或返回地区首选比较其他产品。

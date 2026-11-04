@@ -3,7 +3,7 @@ title: VMiss VPS 购买与首次使用图文教程
 description: 结合线路选择截图，说明 VMiss 官网入口、套餐分类、下单核对，以及购买后获取 SSH 连接信息的方法。
 tutorial: true
 slug: vmiss
-cover:
+cover: images/fm.png
 date: 2026-11-04
 updated: 2026-11-04
 tags: [VPS购买与首次使用教程]
