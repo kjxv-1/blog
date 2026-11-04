@@ -3,7 +3,7 @@
 [================= 🖥️ 高性能服务器 (VPS) =================]: #
 [VPS推荐表]: /recommend/1-vps/ 
 [vmiss]: https://app.vmiss.com/aff.php?aff=3992 "优惠码：10%OFF"
-[jt]: https://www.jtti.cc?k=T7KBH7 "优惠码(2.5折)：kjxv2026"
+[jt]: https://www.jtti.cc?k=T7KBH7 "JTTI 官网与套餐选购"
 [搬瓦工]: https://bwh89.net/aff.php?aff=81595
 [panstar]: https://panstar.ai/register?aff=DCAD1VCH
 [lisa]: https://lisahost.com/aff.php?aff=10639

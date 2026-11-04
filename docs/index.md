@@ -7,7 +7,8 @@ hide:
 
 <nav class="home-nav" aria-label="首页主导航">
   <a class="home-nav__active" href="./">首页</a>
-  <a href="blog/">专栏博客</a>
+  <a href="blog/">视频文档</a>
+  <a href="tutorials/">图文教程</a>
   <a href="recommend/">推荐资源</a>
   <a href="about/">关于本站</a>
   <a href="privacy/">隐私政策</a>
@@ -339,20 +340,6 @@ hide:
     background: rgba(255, 255, 255, 0.65);
   }
 
-  @media screen and (min-width: 50em) {
-    .md-tabs {
-      display: block !important;
-    }
-
-    .md-header__button[for="__drawer"] {
-      display: none !important;
-    }
-
-    .md-header > .md-header__inner > label[for="__search"] {
-      display: none !important;
-    }
-  }
-
   @media screen and (max-width: 49.9375em) {
     .md-tabs {
       display: none;
@@ -454,13 +441,13 @@ hide:
     display: block;
   }
 
-  @media screen and (min-width: 50em) {
+  @media screen and (min-width: 64em) {
     .md-header__button[for="__drawer"] {
       display: none !important;
     }
   }
 
-  @media screen and (max-width: 49.9375em) {
+  @media screen and (max-width: 63.9375em) {
     .md-header__inner > .home-nav {
       display: none;
     }

@@ -36,6 +36,11 @@ theme:
 extra_css:
   - stylesheets/extra.css
   - stylesheets/wg-live.css
+  - stylesheets/tutorials.css
+
+# 图文教程按文档日期、标签和置顶标记自动收录
+hooks:
+  - hooks/tutorials.py
 
 
 extra_javascript:
@@ -82,8 +87,10 @@ markdown_extensions:
 nav:
   - 首页: index.md
 
-  - 专栏博客: 
+  - 视频文档:
       - blog/index.md
+  - 图文教程:
+      - tutorials/index.md
   - 推荐资源:
       - 推荐: 
           - recommend/index.md

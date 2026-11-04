@@ -257,7 +257,7 @@ sb -n
 
 ### JTTI：日本轻量云
 
-[进入 JTTI 日本轻量云页面](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7) · [查看本站 JTTI 详细下单教程](../2026-10-26-VPS-JTT/index.md)
+[进入 JTTI 日本轻量云页面](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7) · [查看本站 JTTI 详细下单教程](../../tutorials/posts/Buy-Guide-Jtti/index.md)
 
 ![JTTI 日本轻量云购买操作指引](images/Jtti日本云购买操作指引.png)
 

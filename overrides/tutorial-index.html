@@ -1,0 +1,38 @@
+{% extends "main.html" %}
+{% block content %}
+  <div class="tutorial-index" data-tutorial-count="{{ tutorial_listing.count }}">
+    {{ page.content }}
+    <p class="tutorial-index__count">共 {{ tutorial_listing.count }} 篇{% if tutorial_listing.tag %} · {{ tutorial_listing.tag | e }}{% endif %} · 每页 10 篇</p>
+    <div class="tutorial-feed">
+      {% for article in tutorial_listing["items"] %}
+        <article class="tutorial-card">
+          <a class="tutorial-card__cover" href="{{ article.file.url | url }}" aria-label="阅读：{{ article.title | e }}">
+            {% if article.cover %}
+              <img src="{{ article.cover | url }}" alt="{{ article.title | e }}" loading="lazy" width="500" height="300">
+            {% else %}
+              <span class="tutorial-card__placeholder" aria-hidden="true">
+                <span class="md-icon">{% include ".icons/material/book-open-page-variant-outline.svg" %}</span>
+                <span>图文教程</span>
+              </span>
+            {% endif %}
+          </a>
+          <div class="tutorial-card__body">
+            <div class="tutorial-card__meta"><time datetime="{{ article.date }}">{{ article.date }}</time> · {{ article.read_minutes }} 分钟{% if article.pin %}<span class="tutorial-pin">常用置顶</span>{% endif %}</div>
+            <h2><a href="{{ article.file.url | url }}">{{ article.title | e }}</a></h2>
+            <div class="tutorial-card__tags">
+              {% for tag in tutorial_tags if tag.name in article.tags %}<a href="{{ tag.url | url }}">{{ tag.name | e }}</a>{% endfor %}
+            </div>
+            <a class="tutorial-card__read" href="{{ article.file.url | url }}">阅读教程 →</a>
+          </div>
+        </article>
+      {% else %}<p>暂时没有教程。</p>{% endfor %}
+    </div>
+    {% if tutorial_listing.pages | length > 1 %}
+      <nav class="tutorial-pagination" aria-label="教程分页">
+        {% for file in tutorial_listing.pages %}
+          <a href="{{ file.url | url }}" {% if loop.index == tutorial_listing.number %}aria-current="page"{% endif %}>{{ loop.index }}</a>
+        {% endfor %}
+      </nav>
+    {% endif %}
+  </div>
+{% endblock %}

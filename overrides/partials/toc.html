@@ -5,7 +5,7 @@
 <nav class="md-nav md-nav--secondary" aria-label="{{ title | e }}">
   {% set toc = page.toc %}
   {% set first = toc | first %}
-  {% if first and first.level == 1 %}
+  {% if first and first.level == 1 and not tutorial_article %}
     {% set toc = first.children %}
   {% endif %}
   {% if toc %}

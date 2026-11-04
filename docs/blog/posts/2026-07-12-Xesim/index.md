@@ -1,7 +1,7 @@
 ---
 date: 2026-07-12
 categories:
-  - 图文教程
+  - 视频文档
 slug: Xesim
 tags:
   - esim

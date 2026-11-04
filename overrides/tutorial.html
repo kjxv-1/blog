@@ -1,0 +1,11 @@
+{% extends "main.html" %}
+{% block content %}
+  <div class="tutorial-article">
+    <div class="tutorial-article__tags" aria-label="文章标签">
+      {% for tag in tutorial_tags if tag.name in tutorial_article.tags %}
+        <a href="{{ tag.url | url }}">{{ tag.name | e }}</a>
+      {% endfor %}
+    </div>
+    {{ page.content }}
+  </div>
+{% endblock %}

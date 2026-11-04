@@ -1,0 +1,23 @@
+<nav class="tutorial-sidebar" aria-label="图文教程导航">
+  <a class="tutorial-sidebar__back" href="{{ 'tutorials/' | url }}">← 图文教程</a>
+  {% if tutorial_article %}
+    <section class="tutorial-metadata" aria-label="文章信息">
+      <h2>文章信息</h2>
+      <p>发布：<time datetime="{{ tutorial_article.date }}">{{ tutorial_article.date }}</time></p>
+      {% if tutorial_article.updated %}<p>更新：<time datetime="{{ tutorial_article.updated }}">{{ tutorial_article.updated }}</time></p>{% endif %}
+      <p>约 {{ tutorial_article.read_minutes }} 分钟阅读</p>
+      {% if tutorial_article.pin %}<span class="tutorial-pin">常用教程</span>{% endif %}
+    </section>
+  {% endif %}
+  <a class="tutorial-filter {% if tutorial_listing and not tutorial_listing.tag and not tutorial_listing.common %}is-active{% endif %}" href="{{ 'tutorials/' | url }}" {% if tutorial_listing and not tutorial_listing.tag and not tutorial_listing.common %}aria-current="page"{% endif %}>全部教程 <span>{{ tutorial_total }}</span></a>
+  <a class="tutorial-filter {% if tutorial_listing and tutorial_listing.common %}is-active{% endif %}" href="{{ 'tutorials/common/' | url }}" {% if tutorial_listing and tutorial_listing.common %}aria-current="page"{% endif %}>常用教程 <span>{{ tutorial_common_count }}</span></a>
+  <h2>按标签查看</h2>
+  <ul class="tutorial-tag-list">
+    {% for tag in tutorial_tags %}
+      <li><a class="tutorial-filter {% if tutorial_listing and tutorial_listing.tag == tag.name %}is-active{% endif %}" href="{{ tag.url | url }}" {% if tutorial_listing and tutorial_listing.tag == tag.name %}aria-current="page"{% endif %}>{{ tag.name | e }} <span>{{ tag.count }}</span></a></li>
+    {% endfor %}
+  </ul>
+  {% if tutorial_article %}
+    <div class="tutorial-mobile-toc">{% include "partials/toc.html" %}</div>
+  {% endif %}
+</nav>

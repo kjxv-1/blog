@@ -340,7 +340,7 @@ sb -n
 
 官网注册链接：[进入 Nodemach 注册页面][vircs]
 
-购买指引教程：[点击跳转](../../../../../../tools/2026-10-24-VPS-nodemach)
+购买指引教程：[点击跳转](../../../tutorials/posts/Buy-Guide-Nodemach/index.md)
 
 ![nodemach套餐介绍](images/nodemach套餐介绍.png)
 
