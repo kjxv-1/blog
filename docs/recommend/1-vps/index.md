@@ -128,7 +128,7 @@ hide:
 </div>
 <div class="vps-vendor__actions" markdown="1">
 [官网／注册入口](https://app.vmiss.com/aff.php?aff=3992)
-[购买与首次使用教程](#buy-vmiss)
+[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Vmiss/index.md)
 --8<-- "includes/videos.md:vmiss"
 </div>
 </div>
@@ -195,10 +195,10 @@ hide:
 | **Panstar**<br>德国 9929 | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 9929 | 德国 | <strong class="vps-highlight">6.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[德国选购指引](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-de) |
 | **Panstar**<br>新加坡（普通线路） | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 国际宽带 | 新加坡 | <strong class="vps-highlight">4.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md) |
 | **搬瓦工（BWG）**<br>基础套餐 | 2核1GB<br>1Gbps带宽<br><strong class="vps-highlight">1000GB流量/月</strong> | 普通国际带宽 | 美国等6个机房 | 49.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=44) | [购买与首次使用](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
-| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>300GB流量/月 | CN2 GIA<br>适合电信用户 | 美国洛杉矶 | 6加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－CN2 GIA”<br>[选购步骤](#buy-vmiss) |
-| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>400GB流量/月 | CMIN2<br>适合移动用户 | 美国洛杉矶 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－CMIN2”<br>[选购步骤](#buy-vmiss) |
-| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>500GB流量/月 | 9929<br>适合联通用户 | 美国洛杉矶 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－9929”<br>[选购步骤](#buy-vmiss) |
-| **VMiss** | 1核1GB<br>200Mbps带宽<br>500GB流量/月 | 国际带宽<br>BGP三网融合 | 香港／日本东京 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“中国－香港－BGP”或“日本－东京－BGP”<br>[选购步骤](#buy-vmiss) |
+| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>300GB流量/月 | CN2 GIA<br>适合电信用户 | 美国洛杉矶 | 6加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－CN2 GIA”<br>[选购步骤](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
+| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>400GB流量/月 | CMIN2<br>适合移动用户 | 美国洛杉矶 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－CMIN2”<br>[选购步骤](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
+| **VMiss**<br><span class="vps-stock" title="当前库存待核实">原记录缺货</span> | 1核1GB<br>200Mbps带宽<br>500GB流量/月 | 9929<br>适合联通用户 | 美国洛杉矶 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“美国－洛杉矶－9929”<br>[选购步骤](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
+| **VMiss** | 1核1GB<br>200Mbps带宽<br>500GB流量/月 | 国际带宽<br>BGP三网融合 | 香港／日本东京 | 5加元/月 | [邀请入口](https://app.vmiss.com/aff.php?aff=3992)<br><small>进入后按指引选购</small> | 优惠码：`10%OFF`<br>左侧选“中国－香港－BGP”或“日本－东京－BGP”<br>[选购步骤](../../tutorials/posts/Buy-Guide-Vmiss/index.md) |
 
 ### 🏆 350元/月以上 · 指定地区精品线路
 
@@ -211,6 +211,8 @@ hide:
 | **搬瓦工（BWG）**<br>商务套餐 | 2核2GB<br><strong class="vps-highlight">1Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong> | CN2 GIA / 9929 / CMIN2 | 香港 | 89.99美元/月<br>899.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=95) | [购买与首次使用](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
 
 ### 🛒 VMiss 选购步骤 { #buy-vmiss }
+
+📖 [查看 VMiss 购买与首次使用图文教程](../../tutorials/posts/Buy-Guide-Vmiss/index.md)，按线路分类图和步骤说明继续操作。
 
 1. 通过上方的邀请入口打开网站，注册或登录账户。
 2. 按推荐行的地区与线路选择左侧产品分类，例如“美国－洛杉矶－CN2 GIA”。
