@@ -77,7 +77,7 @@ PUB=$(curl -4 -s --max-time 5 https://api.ipify.org); NICS=$(ip -4 -o addr show 
 
 1.  Socks5协议的静态IP部署命令（Multi-EasyGost）：
 ```
-wget -O /root/gost.sh https://raw.githubusercontent.com/kjxv/Multi-EasyGost/v2/gost.sh && chmod +x /root/gost.sh && /root/gost.sh
+wget -O /root/gost.sh https://raw.githubusercontent.com/kjxv-1/Multi-EasyGost/v2/gost.sh && chmod +x /root/gost.sh && /root/gost.sh
 ```
 > 项目原地址：https://github.com/KANIKIG/Multi-EasyGost感谢原作者 KANIKIG 以及所有参与该项目开发、维护和贡献的开源作者，为大家提供了简单易用的 Gost 管理脚本。
 
@@ -89,7 +89,7 @@ wget -O /root/gost.sh https://raw.githubusercontent.com/kjxv/Multi-EasyGost/v2/g
 
 1. 3X-UI一键部署命令(版本 3.6.0)：
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/kjxv/3x-ui/video-v3.6.0/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/kjxv-1/3x-ui/video-v3.6.0/install.sh)
 ```
 > 项目原地址：https://github.com/mhsanaei/3x-ui感谢原作者 mhsanaei 以及所有参与该项目开发、维护和贡献的开源作者。
 
@@ -100,7 +100,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/kjxv/3x-ui/video-v3.6.0/instal
 # 使用 Multi-EasyGost 从零搭建 SOCKS5 代理
 
 > 视频配套图文教程｜适用于本仓库 `v2` 分支  
-> 项目地址：<https://github.com/kjxv/Multi-EasyGost>
+> 项目地址：<https://github.com/kjxv-1/Multi-EasyGost>
 
 本教程介绍如何在一台全新的 Linux VPS 上安装 GOST、创建带账号密码的 SOCKS5 代理、放行端口并验证代理出口。完成后，你将得到以下连接信息：
 
@@ -162,7 +162,7 @@ root
 执行以下命令：
 
 ```bash
-wget -O /root/gost.sh https://raw.githubusercontent.com/kjxv/Multi-EasyGost/v2/gost.sh && chmod +x /root/gost.sh && /root/gost.sh
+wget -O /root/gost.sh https://raw.githubusercontent.com/kjxv-1/Multi-EasyGost/v2/gost.sh && chmod +x /root/gost.sh && /root/gost.sh
 ```
 
 这条命令会：
@@ -554,7 +554,7 @@ journalctl -u gost -n 100 --no-pager
 ```text
 首次部署：
 sudo -i
-wget -O /root/gost.sh https://raw.githubusercontent.com/kjxv/Multi-EasyGost/v2/gost.sh && chmod +x /root/gost.sh && /root/gost.sh
+wget -O /root/gost.sh https://raw.githubusercontent.com/kjxv-1/Multi-EasyGost/v2/gost.sh && chmod +x /root/gost.sh && /root/gost.sh
 
 安装 GOST：
 主菜单选择 1

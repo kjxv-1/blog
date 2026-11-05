@@ -108,7 +108,7 @@ nexttrace 120.204.197.126
 
 1. 3X-UI一键部署命令(版本 3.6.0)：
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/kjxv/3x-ui/video-v3.6.0/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/kjxv-1/3x-ui/video-v3.6.0/install.sh)
 ```
 
 

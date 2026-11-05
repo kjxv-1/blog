@@ -77,12 +77,12 @@ apt-get install -y --allow-downgrades curl/bullseye
 
 1. 3X-UI一键部署命令(版本 3.6.0)：
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/kjxv/3x-ui/video-v3.6.0/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/kjxv-1/3x-ui/video-v3.6.0/install.sh)
 ```
 
 1. VPS网络参数优化命令：
 ```
-bash -o pipefail -c 'curl -fsSL https://raw.githubusercontent.com/kjxv/tcpfit/main/install.sh | bash && tcpfit'
+bash -o pipefail -c 'curl -fsSL https://raw.githubusercontent.com/kjxv-1/tcpfit/main/install.sh | bash && tcpfit'
 ```
 !!! abstract "上方是视频中用到的网址。"
 

@@ -79,7 +79,7 @@ apt-get install -y --allow-downgrades curl/bullseye
 
 1. 3X-UI一键部署命令(版本 3.10.2)：
 ```bash
-bash <(curl -fLsS https://raw.githubusercontent.com/kjxv/3x-ui/v3.10.2-preset/deploy/preset/install.sh)
+bash <(curl -fLsS https://raw.githubusercontent.com/kjxv-1/3x-ui/v3.10.2-preset/deploy/preset/install.sh)
 ```
 > 项目原地址：https://github.com/mhsanaei/3x-ui感谢原作者 mhsanaei 以及所有参与该项目开发、维护和贡献的开源作者。
 ---

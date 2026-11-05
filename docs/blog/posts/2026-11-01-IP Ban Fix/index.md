@@ -71,13 +71,13 @@ apt-get install -y --allow-downgrades curl/bullseye
 
 1. 3X-UI一键部署命令(版本 3.10.2-默认配置Hy IPv6节点)：
 ```bash
-bash <(curl -fLsS https://raw.githubusercontent.com/kjxv/3x-ui/v3.10.2-preset-ipv6-hy2/deploy/preset/install.sh)
+bash <(curl -fLsS https://raw.githubusercontent.com/kjxv-1/3x-ui/v3.10.2-preset-ipv6-hy2/deploy/preset/install.sh)
 ```
 > 项目原地址：https://github.com/mhsanaei/3x-ui感谢原作者 mhsanaei 以及所有参与该项目开发、维护和贡献的开源作者。
 
 1. Sing-box 一键部署命令
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/kjxv/sing-box/v1.3.28-vedio/sing-box.sh) -l
+bash <(wget -qO- https://raw.githubusercontent.com/kjxv-1/sing-box/v1.3.28-vedio/sing-box.sh) -l
 ```
 
 !!! abstract "上方是视频中用到的网址。"
@@ -249,7 +249,7 @@ sudo -i
 然后运行下面的**固定视频教程版**部署命令，版本为 `v1.3.28-vedio`：
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/kjxv/sing-box/v1.3.28-vedio/sing-box.sh)
+bash <(wget -qO- https://raw.githubusercontent.com/kjxv-1/sing-box/v1.3.28-vedio/sing-box.sh)
 ```
 
 脚本交互界面出现后，根据提示选择语言和安装选项；需要应急测试的协议为 **Hysteria2（Hy）**。完成部署后，记录生成的端口，并在服务商安全组和系统防火墙中放行对应的 **UDP 端口**。
@@ -257,16 +257,16 @@ bash <(wget -qO- https://raw.githubusercontent.com/kjxv/sing-box/v1.3.28-vedio/s
 如果希望自动填写参数、使用中文极速安装，可运行：
 
 ```bash
-bash <(wget -qO- https://raw.githubusercontent.com/kjxv/sing-box/v1.3.28-vedio/sing-box.sh) -l
+bash <(wget -qO- https://raw.githubusercontent.com/kjxv-1/sing-box/v1.3.28-vedio/sing-box.sh) -l
 ```
 
-该标签固定用于本期教程，后续 `main` 同步上游不会改变这条命令对应的脚本。具体版本信息和使用说明见 [v1.3.28-vedio Release](https://github.com/kjxv/sing-box/releases/tag/v1.3.28-vedio)。已有部署的用户应先保留原配置，避免覆盖正在使用的服务。
+该标签固定用于本期教程，后续 `main` 同步上游不会改变这条命令对应的脚本。具体版本信息和使用说明见 [v1.3.28-vedio Release](https://github.com/kjxv-1/sing-box/releases/tag/v1.3.28-vedio)。已有部署的用户应先保留原配置，避免覆盖正在使用的服务。
 
 !!! danger "运行远程脚本前请确认"
-    上面的命令会下载并以服务器权限直接执行脚本。建议先打开 [kjxv/sing-box 项目页面](https://github.com/kjxv/sing-box) 查看来源和更新记录。谨慎操作时，也可以先下载并检查脚本，再手动执行：
+    上面的命令会下载并以服务器权限直接执行脚本。建议先打开 [kjxv-1/sing-box 项目页面](https://github.com/kjxv-1/sing-box) 查看来源和更新记录。谨慎操作时，也可以先下载并检查脚本，再手动执行：
 
     ```bash
-    wget -O sing-box.sh https://raw.githubusercontent.com/kjxv/sing-box/v1.3.28-vedio/sing-box.sh
+    wget -O sing-box.sh https://raw.githubusercontent.com/kjxv-1/sing-box/v1.3.28-vedio/sing-box.sh
     less sing-box.sh
     bash sing-box.sh
     ```
