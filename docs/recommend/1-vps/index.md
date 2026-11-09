@@ -177,9 +177,14 @@ hide:
 
 适合有一定流量需求的用户。请按地区、线路和付款周期选择；JTTI 价格为本次购买教程中的截图参考价。
 
+<p class="vps-section-note">DMIT 三款均为 AS3 平台的 Premium 精品线路 TINY 套餐，含 1 个 IPv4 与 IPv6 /64 网段，流量为双向计量；按 2026 年 11 月 9 日官方订购页截图记录美元月付价。日本、香港套餐高于本档预算，集中列出便于比较；是否可订购及最终金额以官网为准。</p>
+
 | 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买与首次使用教程 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **NodeMach** | 1核2GB<br>1000Mbps带宽<br>1000GB流量/月 | 电信CN2 GIA<br>联通4837 | 美国 | 9.99美元/月 | [官网／注册入口](https://www.nodemach.com/welcome?vcd=9467e966)<br><small>按推荐配置选购</small> | 邀请注册永久95折<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Nodemach/index.md) |
+| **DMIT**<br>LAX.AS3.Pro.TINY | 1核2GB<br>20GB SSD<br><strong class="vps-highlight">1Gbps带宽</strong><br><strong class="vps-highlight">1000GB流量/月</strong><br><small>超额后降至4Mbps不限量</small> | Premium 精品线路<br>含 CN2 GIA | **美国洛杉矶** | <strong class="vps-highlight">10.90美元/月</strong> | [官网／注册入口](https://www.dmit.io/aff.php?aff=25524)<br><small>按推荐配置选购</small> | 本页未列专属优惠码<br>地区选 Los Angeles<br>Premium → AS3 → TINY |
+| **DMIT**<br>TYO.AS3.Pro.TINY | 1核1GB<br>20GB SSD<br><strong class="vps-highlight">1Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong><br><small>流量超额后暂停实例</small> | Premium 精品线路<br>含 CN2 GIA | **日本东京** | <strong class="vps-highlight">21.90美元/月</strong> | [官网／注册入口](https://www.dmit.io/aff.php?aff=25524)<br><small>按推荐配置选购</small> | 本页未列专属优惠码<br>地区选 Tokyo<br>Premium → AS3 → TINY |
+| **DMIT**<br>HKG.AS3.Pro.TINY | 1核1GB<br>20GB SSD<br><strong class="vps-highlight">1Gbps带宽</strong><br><strong class="vps-highlight">500GB流量/月</strong><br><small>流量超额后暂停实例</small> | Premium 精品线路<br>含 CN2 GIA | **中国香港** | <strong class="vps-highlight">39.90美元/月</strong> | [官网／注册入口](https://www.dmit.io/aff.php?aff=25524)<br><small>按推荐配置选购</small> | 本页未列专属优惠码<br>地区选 Hong Kong<br>Premium → AS3 → TINY |
 | **JTTI**<br>日本轻量云 | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | 日本 | 12.61美元/月<br><small>截图参考价</small> | [官网／注册入口](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>按推荐配置选购</small> | 无本站专属优惠<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-jp)|
 | **JTTI**<br>香港轻量云 | 1核1GB<br>200Mbps带宽<br><strong class="vps-highlight">800GB流量/月</strong> | 中国优化 | 香港 | 12.99美元/月<br><small>截图参考价</small> | [官网／注册入口](https://www.jtti.cc/zh/light_cloud.html?k=T7KBH7)<br><small>按推荐配置选购</small> | 无本站专属优惠<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Jtti/index.md#jtti-hk)|
 | **华纳云** | 1核1GB<br>200Mbps带宽<br>800GB流量/月 | 中国优化 | 日本 | 68.4元/月<br>136.80元/季度 | [官网／注册入口](https://www.hncloud.com/light_cloud.html?k=kejixiaov)<br><small>按推荐配置选购</small> | 本页未列优惠码<br>选择日本、1核1GB<br>核对200Mbps与800GB流量 |
