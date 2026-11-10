@@ -148,7 +148,7 @@ hide:
 
 ## 📍 各地区当前首选 { #vps-regions }
 
-<p class="vps-section-note">每个地区先列一款兼顾价格与配置的套餐，供快速比较；网络效果仍需结合本地运营商测试。整理日期：2026 年 11 月 4 日。以下沿用本站既有套餐资料，价格和优惠以结算页面为准。</p>
+<p class="vps-section-note">每个地区先列一款兼顾价格与配置的套餐，供快速比较；网络效果仍需结合本地运营商测试。整理日期：2026 年 11 月 10 日。以下沿用本站既有套餐资料，价格和优惠以结算页面为准。</p>
 
 <!-- 地区首选与预算表引用同一套餐时，更新请同时核对配置、价格和入口。 -->
 <!-- 话术维护：具体商品链接统一“直达此套餐”；其余购买入口统一“官网／注册入口”；教程链接统一“购买与首次使用教程”，每行同一篇只保留一个入口；不添加库存状态标签。 -->
@@ -196,7 +196,7 @@ hide:
 
 | 厂商名称 | 配置说明 | 回程线路 | 机房位置 | 价格 | 购买链接 | 优惠码及<br>购买与首次使用教程 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Panstar**<br>美国精品 | 1核768MB<br>300Mbps带宽<br><strong class="vps-highlight">512GB流量/月</strong> | CN2 / 9929 / CMIN2 | 美国洛杉矶 | <strong class="vps-highlight">5.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=6&productId=15&planId=393&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-us) |
+| **Panstar**<br>美国精品 DC2 · Nano | 1核1GB<br>10GB SSD<br>500Mbps带宽<br><strong class="vps-highlight">512GiB流量/月</strong> | CN2 GIA / 9929 / CMIN2 | 美国洛杉矶 DC2 | <strong class="vps-highlight">6.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=6&nodeId=26&productId=36&planId=678&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-us) |
 | **Panstar**<br>德国 9929 | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 9929 | 德国 | <strong class="vps-highlight">6.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=7&productId=21&planId=236&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md#panstar-de) |
 | **Panstar**<br>新加坡（普通线路） | 1核1GB<br>1000Mbps带宽<br><strong class="vps-highlight">1024GB流量/月</strong> | 国际宽带 | 新加坡 | <strong class="vps-highlight">4.99美元/月</strong> | [直达此套餐](https://panstar.ai/servers?regionId=8&nodeId=18&productId=24&planId=272&cycle=1&aff=DCAD1VCH) | [官方优惠码 领取网址](https://panstar.ai/activities?aff=DCAD1VCH)<br>[购买与首次使用教程](../../tutorials/posts/Buy-Guide-Panstar/index.md) |
 | **搬瓦工（BWG）**<br>基础套餐 | 2核1GB<br>1Gbps带宽<br><strong class="vps-highlight">1000GB流量/月</strong> | 普通国际带宽 | 美国等6个机房 | 49.99美元/年 | [直达此套餐](https://bwh81.net/aff.php?aff=81595&pid=44) | [购买与首次使用教程](../../tutorials/posts/Buy-Guide-Bwg/index.md)<br>本页未列专属优惠码 |
