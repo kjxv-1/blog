@@ -1,0 +1,48 @@
+/* 图文教程沿用视频文档的三栏比例，标签与列表只作用于本栏目。 */
+.tutorial-sidebar { padding: .35rem .5rem; font-size: .7rem; color: var(--site-ink); }
+.tutorial-sidebar__back { display: block; padding: .25rem 0 .65rem; color: var(--site-teal); font-weight: 700; }
+.tutorial-sidebar h2 { margin: .85rem 0 .35rem; color: var(--site-muted); font-size: .65rem; font-weight: 600; }
+.tutorial-metadata { margin-bottom: .7rem; padding-bottom: .7rem; border-bottom: 1px solid var(--site-line); }
+.tutorial-metadata p { margin: .4rem 0; font-size: .65rem; }
+.tutorial-tag-list { margin: 0; padding: 0; list-style: none; }
+.tutorial-filter { display: flex; align-items: center; justify-content: space-between; gap: .5rem; margin: .15rem 0; padding: .4rem .45rem; border-radius: 6px; }
+.tutorial-filter span { color: var(--site-muted); font-size: .6rem; }
+.tutorial-filter:hover, .tutorial-filter.is-active { color: var(--site-teal); background: color-mix(in srgb, var(--site-teal) 9%, transparent); }
+.tutorial-pin { display: inline-block; padding: .08rem .3rem; border-radius: 4px; color: var(--site-teal); background: color-mix(in srgb, var(--site-teal) 9%, transparent); font-size: .58rem; font-weight: 500; }
+.tutorial-index > h1 { margin-bottom: .7rem; }
+.tutorial-index > p { color: var(--site-muted); font-size: .72rem; }
+.tutorial-index__count { margin: 1.1rem 0 .25rem; }
+.tutorial-card { display: grid; grid-template-columns: minmax(0, 40%) minmax(0, 1fr); gap: 1rem; padding: 1.2rem 0; border-top: 1px solid var(--site-line); }
+.tutorial-card__cover { display: block; align-self: start; overflow: hidden; border-radius: 8px; background: var(--site-page); }
+.md-typeset .tutorial-card__cover img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; object-position: center; margin: 0; border-radius: 8px; box-shadow: none; transition: transform .2s ease; }
+.tutorial-card__placeholder { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5rem; aspect-ratio: 16 / 9; color: var(--site-muted); background: linear-gradient(135deg, var(--site-page), color-mix(in srgb, var(--site-teal) 9%, var(--site-paper))); font-size: .68rem; letter-spacing: .12em; }
+.tutorial-card__placeholder .md-icon { width: 2rem; height: 2rem; opacity: .6; }
+.tutorial-card__placeholder svg { width: 100%; height: 100%; }
+.tutorial-card__cover:hover img { transform: scale(1.025); }
+.tutorial-card__meta { display: flex; align-items: center; flex-wrap: wrap; gap: .25rem; color: var(--site-muted); font-size: .6rem; }
+.md-typeset .tutorial-card h2 { margin: .35rem 0 .4rem; font-size: 1.08em; line-height: 1.5; }
+.tutorial-card__tags, .tutorial-article__tags { display: flex; flex-wrap: wrap; gap: .25rem .4rem; }
+.tutorial-card__tags a, .tutorial-article__tags a { padding: .08rem .35rem; border: 1px solid var(--site-line); border-radius: 4px; color: var(--site-muted); font-size: .58rem; }
+.tutorial-card__tags a:hover, .tutorial-article__tags a:hover { border-color: var(--site-teal); color: var(--site-teal); }
+.tutorial-card__read { display: inline-block; margin-top: .5rem; font-size: .68rem; }
+.tutorial-article__tags { margin-bottom: 1rem; }
+.tutorial-article h2[id], .tutorial-article h3[id] { scroll-margin-top: 4.5rem; }
+.tutorial-pagination { display: flex; justify-content: center; flex-wrap: wrap; gap: .35rem; margin-top: 1rem; }
+.tutorial-pagination a { padding: .25rem .65rem; border-radius: 5px; font-size: .72rem; }
+.tutorial-pagination a[aria-current="page"] { color: var(--site-paper); background: var(--site-teal); }
+@media screen and (min-width: 76.25em) {
+  .tutorial-mobile-site-nav, .tutorial-mobile-toc { display: none; }
+  /* 增加栏目后，给品牌和右侧按钮保留空间。 */
+  .md-tabs__item { padding-right: .55rem; padding-left: .55rem; }
+}
+@media screen and (max-width: 76.1875em) {
+  .tutorial-drawer-close { display: block; padding: .8rem; color: var(--site-ink); font-size: .8rem; font-weight: 700; cursor: pointer; }
+  .tutorial-global-link { display: block; padding: .45rem .8rem; color: var(--site-ink); font-size: .7rem; }
+  .tutorial-global-link.is-active { color: var(--site-teal); background: color-mix(in srgb, var(--site-teal) 9%, transparent); }
+  .tutorial-sidebar { margin: .8rem; padding-top: .75rem; border-top: 1px solid var(--site-line); }
+  .tutorial-mobile-toc { margin-top: 1rem; }
+}
+@media screen and (max-width: 40em) {
+  .tutorial-card { grid-template-columns: minmax(0, 1fr); gap: .7rem; padding: 1rem 0; }
+  .tutorial-card__cover { max-width: 100%; }
+}

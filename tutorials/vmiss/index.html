@@ -1,0 +1,1210 @@
+<!DOCTYPE html><html lang="zh" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="结合线路选择截图，说明 VMiss 官网入口、套餐分类、下单核对，以及购买后获取 SSH 连接信息的方法。">
+      
+      
+      
+        <link rel="canonical" href="https://kjxv.net/tutorials/vmiss/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>VMiss VPS 购买与首次使用图文教程 - 小V博客</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/wg-live.css">
+    
+      <link rel="stylesheet" href="../../stylesheets/tutorials.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  
+  
+  <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3329871586585255" crossorigin="anonymous"></script>
+    <meta name="google-site-verification" content="dBT_Fsw_ztEwI4nvv53xoEy1Sj9GchxnOpdOwd3NhME">
+
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#vmiss-vps" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href="../.." title="小V博客" class="md-header__button md-logo" aria-label="小V博客" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"></path></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            小V博客
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              VMiss VPS 购买与首次使用图文教程
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="white" data-md-color-accent="indigo" aria-label="切换到深色模式" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="indigo" aria-label="切换到浅色模式" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  首页
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../blog/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  视频文档
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  图文教程
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../recommend/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  推荐资源
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../about/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  关于本站
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../privacy/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  隐私政策
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../disclaimer/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  免责声明
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../services/remote-support/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  技术支持
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+  
+    <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner">
+        <nav class="tutorial-mobile-site-nav" aria-label="全站导航">
+          <label class="tutorial-drawer-close" for="__drawer">← 小V博客</label>
+          
+            <a class="tutorial-global-link" href="../..">首页</a>
+          
+            <a class="tutorial-global-link" href="../../blog/">视频文档</a>
+          
+            <a class="tutorial-global-link is-active" href="../">图文教程</a>
+          
+            <a class="tutorial-global-link" href="../../recommend/">推荐资源</a>
+          
+            <a class="tutorial-global-link" href="../../about/">关于本站</a>
+          
+            <a class="tutorial-global-link" href="../../privacy/">隐私政策</a>
+          
+            <a class="tutorial-global-link" href="../../disclaimer/">免责声明</a>
+          
+            <a class="tutorial-global-link" href="../../services/remote-support/">技术支持</a>
+          
+        </nav>
+        <nav class="tutorial-sidebar" aria-label="图文教程导航">
+  <a class="tutorial-sidebar__back" href="../">← 图文教程</a>
+  
+    <section class="tutorial-metadata" aria-label="文章信息">
+      <h2>文章信息</h2>
+      <p>发布：<time datetime="2026-11-04">2026-11-04</time></p>
+      <p>更新：<time datetime="2026-11-04">2026-11-04</time></p>
+      <p>约 8 分钟阅读</p>
+      <span class="tutorial-pin">常用教程</span>
+    </section>
+  
+  <a class="tutorial-filter " href="../">全部教程 <span>7</span></a>
+  <a class="tutorial-filter " href="../common/">常用教程 <span>7</span></a>
+  <h2>按标签查看</h2>
+  <ul class="tutorial-tag-list">
+    
+      <li><a class="tutorial-filter " href="../tags/vps%E8%B4%AD%E4%B9%B0%E4%B8%8E%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">VPS购买与首次使用教程 <span>5</span></a></li>
+    
+      <li><a class="tutorial-filter " href="../tags/%E4%BD%8F%E5%AE%85ip%E8%B4%AD%E4%B9%B0%E4%B8%8E%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">住宅IP购买与首次使用教程 <span>2</span></a></li>
+    
+  </ul>
+  
+    <div class="tutorial-mobile-toc">
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        
+
+<li class="md-nav__item">
+  <a href="#vmiss-vps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🖥️ VMiss VPS 购买与首次使用图文教程
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🖥️ VMiss VPS 购买与首次使用图文教程">
+      <ul class="md-nav__list">
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐 官网与注册入口
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-lines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 VPS地区与线路
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧭 VPS地区与线路">
+      <ul class="md-nav__list">
+        
+          
+
+<li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        先看截图中的分类
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        按完整线路名称选
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛒 套餐选购与付款
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛒 套餐选购与付款">
+      <ul class="md-nav__list">
+        
+          
+
+<li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第1步：核对套餐配置
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第2步：确认周期金额
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第3步：付款并查开通
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-first-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔑 首次使用与连接
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔑 首次使用与连接">
+      <ul class="md-nav__list">
+        
+          
+
+<li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第1步：找到服务资料
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第2步：核对系统版本
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第3步：用客户端连接
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ❓ 常见问题与帮助
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔗 官方资料与更新
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+      
+    </ul>
+  
+</nav>
+
+<aside class="sidebar-support" aria-label="咨询与联系">
+  <div class="sidebar-support__title">💬 咨询与联系</div>
+  <a href="https://t.me/kejixiaov" target="_blank" rel="noopener noreferrer" aria-label="通过 Telegram 联系技术人员">
+    <img src="../../assets/images/telegram-contact.png" alt="Telegram 联系二维码">
+  </a>
+  <div class="sidebar-support__hint">如需进一步咨询，请扫描二维码通过 Telegram 联系</div>
+</aside></div>
+  
+</nav>
+      </div></div>
+    </div>
+    <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+      <div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner">
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        
+
+<li class="md-nav__item">
+  <a href="#vmiss-vps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🖥️ VMiss VPS 购买与首次使用图文教程
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🖥️ VMiss VPS 购买与首次使用图文教程">
+      <ul class="md-nav__list">
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-entry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐 官网与注册入口
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-lines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧭 VPS地区与线路
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧭 VPS地区与线路">
+      <ul class="md-nav__list">
+        
+          
+
+<li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        先看截图中的分类
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        按完整线路名称选
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-purchase" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛒 套餐选购与付款
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🛒 套餐选购与付款">
+      <ul class="md-nav__list">
+        
+          
+
+<li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第1步：核对套餐配置
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第2步：确认周期金额
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第3步：付款并查开通
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-first-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔑 首次使用与连接
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔑 首次使用与连接">
+      <ul class="md-nav__list">
+        
+          
+
+<li class="md-nav__item">
+  <a href="#1_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第1步：找到服务资料
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#2_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第2步：核对系统版本
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#3_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        第3步：用客户端连接
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-help" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ❓ 常见问题与帮助
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+          
+
+<li class="md-nav__item">
+  <a href="#vmiss-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔗 官方资料与更新
+      
+    </span>
+  </a>
+  
+</li>
+
+        
+      </ul>
+    </nav>
+  
+</li>
+
+      
+    </ul>
+  
+</nav>
+
+<aside class="sidebar-support" aria-label="咨询与联系">
+  <div class="sidebar-support__title">💬 咨询与联系</div>
+  <a href="https://t.me/kejixiaov" target="_blank" rel="noopener noreferrer" aria-label="通过 Telegram 联系技术人员">
+    <img src="../../assets/images/telegram-contact.png" alt="Telegram 联系二维码">
+  </a>
+  <div class="sidebar-support__hint">如需进一步咨询，请扫描二维码通过 Telegram 联系</div>
+</aside>
+      </div></div>
+    </div>
+  
+
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+  <div class="tutorial-article">
+    <div class="tutorial-article__tags" aria-label="文章标签">
+      
+        <a href="../tags/vps%E8%B4%AD%E4%B9%B0%E4%B8%8E%E9%A6%96%E6%AC%A1%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/">VPS购买与首次使用教程</a>
+      
+    </div>
+    <!-- 资料与截图说明：原始线路图来自博主提供的 vmiss 图片文件夹；官网主站截图于 2026-11-04 实际采集。客户中心本次触发 Cloudflare 安全验证，未进入注册、配置、结算和已购服务后台；下方流程图明确为示意图，不是后台实拍。后续可在对应步骤补充真实截图。 --><style>
+  .vmiss-guide-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 1.4rem; }
+  .vmiss-guide-nav a { padding: .35rem .7rem; border: 1px solid var(--site-line); border-radius: 2rem; color: var(--site-ink); font-size: .7rem; }
+  .vmiss-guide-nav a:hover { border-color: var(--site-teal); color: var(--site-teal); }
+  .vmiss-highlight { color: #c53030; font-weight: 700; }
+  [data-md-color-scheme="slate"] .vmiss-highlight { color: #ff9797; }
+</style>
+
+<p><a href="../../recommend/1-vps/">← 返回 VPS 推荐表</a></p>
+<h1 id="vmiss-vps">🖥️ VMiss VPS 购买与首次使用图文教程</h1>
+<p>第一次购买 VMiss，先确定<strong>地区与线路</strong>，再选择具体配置和付款周期。本文按这个顺序整理选购方法，并说明开通后需要核对哪些连接信息。</p>
+<p>👉 <strong><a href="https://app.vmiss.com/aff.php?aff=3992">进入 VMiss 官网／注册入口</a></strong></p>
+<nav class="vmiss-guide-nav" aria-label="VMiss 教程快速导航">
+  <a href="#vmiss-lines">🧭 地区与线路选择</a>
+  <a href="#vmiss-purchase">🛒 套餐选购与付款</a>
+  <a href="#vmiss-first-use">🔑 首次使用与连接</a>
+</nav>
+
+<blockquote>
+<p>本页使用小V提供的线路选择原图、官网主站截图和操作流程示意图。套餐名称、库存、价格及具体按钮位置，请以下单时客户中心的实际显示为准。</p>
+</blockquote>
+<h2 id="vmiss-entry">🌐 官网与注册入口</h2>
+<p><strong>第1步：进入客户中心。</strong> 推荐直接通过上方入口打开 <code>app.vmiss.com</code>。如果先进入 <code>www.vmiss.com</code> 主站，点击右上角的 <strong>「Client Area」</strong>，或首页的 <strong>「Start now」</strong>，也会进入客户中心。</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../posts/Buy-Guide-Vmiss/images/official-home.png" data-desc-position="bottom"><img alt="VMiss 官网主站：右上角 Client Area 和左下方 Start now 均通往客户中心" src="../posts/Buy-Guide-Vmiss/images/official-home.png"></a></p>
+<p><strong>第2步：注册或登录。</strong> 已有账户直接登录；新用户在登录页面寻找<strong>新建账户／注册</strong>入口，按页面要求填写资料。邮箱应能正常接收订单、账单及开通相关邮件；如有邮箱验证提示，按提示完成。</p>
+<p>进入客户中心后，再选择产品分类。账户密码与 VPS 的系统登录密码分别保管，后面连接服务器时要使用对应的 VPS 登录凭据。</p>
+<h2 id="vmiss-lines">🧭 VPS地区与线路</h2>
+<h3 id="_1">先看截图中的分类</h3>
+<p>下面的图片保留了小V的原始标注。选购顺序来自个人使用经验，实际体验还取决于你的所在地、运营商和使用时段。</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../posts/Buy-Guide-Vmiss/images/vmiss-%E5%A5%97%E9%A4%90%E4%BB%8B%E7%BB%8D.png" data-desc-position="bottom"><img alt="小V提供的 VMiss 套餐分类说明：美国优化线路优先，香港与东京 BGP 作为备选，专用服务器按需求选择" src="../posts/Buy-Guide-Vmiss/images/vmiss-%E5%A5%97%E9%A4%90%E4%BB%8B%E7%BB%8D.png"></a></p>
+<p>按图中的顺序理解：</p>
+<ol>
+<li><strong>优先对照美国洛杉矶的优化线路</strong>，如 TRI、9929、CMIN2、CN2 GIA，再看有没有适合自己的配置。</li>
+<li><strong>香港 BGP、日本东京 BGP 作为备选</strong>，选择前留意线路说明。VMiss 在<a href="https://app.vmiss.com/store/jp-tokyo-bgp?language=chinese">东京 BGP 产品页</a>提示了高峰时段可能出现的延迟、丢包及速度波动。</li>
+<li><strong>专用服务器单独看需求</strong>，本教程主要演示 VPS 的选择思路。</li>
+<li>图中未标注的分类，先了解线路和用途后再决定，避免只看地区或价格就下单。</li>
+</ol>
+<h3 id="_2">按完整线路名称选</h3>
+<p>同样写着“美国洛杉矶”，也可能属于不同线路。按推荐表中当前行的线路进入，再核对套餐名称。</p>
+<table>
+<thead>
+<tr>
+<th>推荐表中的线路</th>
+<th>客户中心分类或产品名称中的识别词</th>
+<th>官方分类参考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>美国三网优化</td>
+<td>洛杉矶、TRI／三网优化</td>
+<td><a href="https://app.vmiss.com/store/us-los-angeles-tri?language=chinese">查看 TRI 分类</a></td>
+</tr>
+<tr>
+<td>美国 9929</td>
+<td>洛杉矶、9929</td>
+<td><a href="https://app.vmiss.com/store/us-los-angeles-9929?language=chinese">查看 9929 分类</a></td>
+</tr>
+<tr>
+<td>美国 CMIN2</td>
+<td>洛杉矶、CMIN2</td>
+<td><a href="https://app.vmiss.com/store/us-los-angeles-cmin2?language=chinese">查看 CMIN2 分类</a></td>
+</tr>
+<tr>
+<td>美国 CN2 GIA</td>
+<td>洛杉矶、CN2 GIA；套餐名可能包含 <code>US.LA.CN2</code></td>
+<td><a href="https://app.vmiss.com/store/us-los-angeles-cn2?language=chinese">查看 CN2 GIA 分类</a></td>
+</tr>
+<tr>
+<td>日本东京 BGP</td>
+<td>日本、东京、BGP</td>
+<td><a href="https://app.vmiss.com/store/jp-tokyo-bgp?language=chinese">查看东京 BGP 分类</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>上面的链接用于定位分类；具体商品仍要在分类内选择。</strong> 如果菜单增加了 DC2、DC3 等后缀，也要核对机房与线路说明，不能只按名称前半段判断。</p>
+<h2 id="vmiss-purchase">🛒 套餐选购与付款</h2>
+<p>下面是选购时的核对顺序，<strong>属于操作示意图</strong>。</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../posts/Buy-Guide-Vmiss/images/purchase-flow.svg" data-desc-position="bottom"><img alt="VMiss 选购核对流程示意：进入账户、选择线路、核对配置、确认周期与金额、完成付款、检查开通" src="../posts/Buy-Guide-Vmiss/images/purchase-flow.svg"></a></p>
+<h3 id="1">第1步：核对套餐配置</h3>
+<p>选择目标分类后，对照推荐表核对以下项目：</p>
+<ul>
+<li><strong>CPU、内存、磁盘</strong>：不要只凭 Basic、Core、Pro 等档位名称判断配置。</li>
+<li><strong>端口带宽与月流量</strong>：例如 <strong class="vmiss-highlight">200Mbps</strong> 是端口带宽，<strong class="vmiss-highlight">400GB／月</strong> 是流量额度，两者含义不同。</li>
+<li><strong>IP 配置</strong>：确认套餐提供的 IPv4／IPv6 是否满足后续搭建教程的要求。</li>
+<li><strong>库存</strong>：以当时页面能否订购为准；缺货时返回推荐表比较其他方案。</li>
+</ul>
+<p>有货时，选择对应套餐的<strong>立即订购／Order Now</strong>，继续按页面提示核对可选项。</p>
+<h3 id="2">第2步：确认周期金额</h3>
+<p>核对付款周期和页面币种。<strong>显示 <code>CAD</code> 时表示加元</strong>；月付、季付、年付等周期的最终应付金额，需要在结算前看清。</p>
+<p>如果页面提供系统镜像、附加 IP 或其他选项，按实际需求选择，并查看右侧或下方的订单合计。后续要跟随本站搭建教程时，系统版本按对应教程要求选择。</p>
+<p>本站推荐表原记录的优惠码为 <code>10%OFF</code>。可以在页面提供的优惠码位置尝试填写并验证，<strong>确认页面实际接受优惠、总额发生正确变化后，再决定是否付款</strong>。本页不保证该码在所有商品或时间都适用。</p>
+<h3 id="3">第3步：付款并查开通</h3>
+<p>确认地区、线路、配置、周期、币种和总额后，再按页面当时提供的付款方式完成支付。</p>
+<p>付款后查看<strong>订单／产品状态与注册邮箱</strong>，等待官方提供开通结果。如果仍显示待处理，先查看账单是否已支付、订单是否还在审核，必要时通过客户中心提交工单。开通耗时以实际处理为准。</p>
+<h2 id="vmiss-first-use">🔑 首次使用与连接</h2>
+<h3 id="1_1">第1步：找到服务资料</h3>
+<p>登录客户中心，找到已经购买的 VPS，打开对应的产品／服务详情，核对产品名称、地区及运行状态。</p>
+<p><strong>连接资料可能显示在服务详情、关联控制台或开通邮件中</strong>。重点找下面四项；找不到时，向客服说明订单或服务编号并咨询。</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../posts/Buy-Guide-Vmiss/images/first-use-checklist.svg" data-desc-position="bottom"><img alt="首次连接 VPS 的信息核对示意：公网 IP、SSH 端口、系统用户名和 VPS 系统密码" src="../posts/Buy-Guide-Vmiss/images/first-use-checklist.svg"></a></p>
+<table>
+<thead>
+<tr>
+<th>需要的信息</th>
+<th>在客户端中如何使用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>公网 IP／连接地址</td>
+<td>填入 SSH 客户端的主机地址</td>
+</tr>
+<tr>
+<td>SSH 端口</td>
+<td>按实际开通资料填写；不要把所有服务器都默认当作 22</td>
+</tr>
+<tr>
+<td>系统用户名</td>
+<td>Linux 常见为 <code>root</code>，以该系统提供的账号为准</td>
+</tr>
+<tr>
+<td>系统密码／SSH 密钥</td>
+<td>使用这台 VPS 的登录凭据，注意与 VMiss 网站账户密码区分</td>
+</tr>
+</tbody>
+</table>
+<h3 id="2_1">第2步：核对系统版本</h3>
+<p>如果已安装的系统符合后续教程要求，可以直接继续使用。确需重新安装时，在该 VPS 的管理入口寻找系统安装／重装相关功能，按官方页面说明操作。</p>
+<p><strong>重装系统会清空服务器原有数据。</strong> 已经使用过的 VPS，应先备份再操作；重装完成后重新核对 IP、端口和登录凭据。</p>
+<h3 id="3_1">第3步：用客户端连接</h3>
+<p>以 FinalShell 等 SSH 客户端为例，新建一个 <strong>SSH 连接</strong>，填入上表中的主机地址、端口、用户名和密码／密钥，再连接服务器。</p>
+<p>成功进入 Linux 命令行后，再按相应的视频文档执行搭建步骤。连接不上时，先检查服务运行状态、地址、端口和凭据，再排查本地网络或向客服提交工单。</p>
+<h2 id="vmiss-help">❓ 常见问题与帮助</h2>
+<p><strong>推荐表为什么给的是邀请入口？</strong></p>
+<p>该入口用于进入 VMiss 官网。进入后仍需按照推荐行的<strong>地区 → 线路 → 配置</strong>选购；本页的分类图和对照表用于辅助定位。</p>
+<p><strong>优惠码验证失败怎么办？</strong></p>
+<p>先确认适用商品与活动条件。验证失败时按当前价格重新评估，或返回推荐表比较其他选择。</p>
+<p><strong>买到的 IP 无法连接怎么办？</strong></p>
+<p>先核对连接资料及网络状态，再联系官方客服。VMiss 的<a href="https://app.vmiss.com/knowledgebase/2/IP-is-not-accessible-from-China.html?language=french">官方 IP 无法访问说明</a>包含相关处理政策，换 IP 的条件和费用应先向官方确认。</p>
+<p><strong>需要进一步咨询？</strong></p>
+<p>可以通过网站右侧的“咨询与联系”二维码联系 Telegram；服务器账单、库存、开通及账户问题，优先通过 VMiss 官方客户中心处理。</p>
+<h2 id="vmiss-sources">🔗 官方资料与更新</h2>
+<ul>
+<li><a href="https://www.vmiss.com/">VMiss 官网主站</a></li>
+<li><a href="https://app.vmiss.com/aff.php?aff=3992">客户中心／注册入口</a></li>
+<li><a href="https://app.vmiss.com/knowledgebase">官方知识库</a></li>
+<li><a href="../../recommend/1-vps/">返回本站 VPS 推荐表</a></li>
+</ul>
+<p>本页整理于 <strong>2026年11月4日</strong>。线路选择图为博主提供的原图；产品分类的文字核对参考官方公开页面资料，未将其库存数字或价格作为实时承诺。</p>
+  </div>
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://t.me/kejixiaov" target="_blank" rel="noopener" title="Telegram 咨询与联系" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 0-496m115 168.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7.2-.7.3-3.1-1.2-4.4s-3.6-.8-5.1-.5c-2.2.5-37.1 23.5-104.6 69.1-9.9 6.8-18.9 10.1-26.9 9.9-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3.6-4.5 6.7-9 18.4-13.7 72.3-31.5 120.5-52.3 144.6-62.3 68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6.5 9.6 2.9 2 1.7 3.2 4.1 3.5 6.7.5 3.2.6 6.5.4 9.8z"></path></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.indexes", "content.tabs.link", "content.code.copy", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="../../javascripts/wg-live.js"></script>
+      
+        <script src="../../javascripts/blog-page-size.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
