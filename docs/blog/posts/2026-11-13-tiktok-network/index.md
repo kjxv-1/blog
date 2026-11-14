@@ -64,7 +64,7 @@ tags:
 1. Clash Meta for Android(Android 手机端):[https://github.com/MetaCubeX](https://github.com/MetaCubeX/ClashMetaForAndroid/releases/latest?utm_source=chatgpt.com)
 1. Shadowrocket(小火箭)，请自行在苹果AppStore中下载
 
-## 🔠 视频相关命令：
+## 🔠 视频相关命令
 
 1. 服务器远程连接工具（FinalShell）： [https://www.hostbuf.com/t/988.html](https://www.hostbuf.com/t/988.html)
 
@@ -80,21 +80,7 @@ bash <(curl -fLsS https://raw.githubusercontent.com/kjxv-1/3x-ui/v3.10.2-preset-
 !!! abstract "上方是视频中用到的网址。"
 
 
----
 
-## 📦 一、准备工作
-
-3 HK官网地址：[https://www.three.com](https://www.three.com.hk/tc/home.html)
-![步骤一](images/01-1.png){ style="display:block; width:100%; max-width: 920px; margin: 20px auto 28px; border-radius: 12px; box-shadow: 0 6px 18px rgba(15,23,42,0.10);" }
-
-
-<div class="grid" markdown>
-
-![选择网络问题](images/01-21.png)
-
-![选择网络问题](images/01-22.png)
-
-</div>
 
 
 !!! Warning "**免责声明**"
