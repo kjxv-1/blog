@@ -7,6 +7,7 @@
 [搬瓦工]: https://bwh89.net/aff.php?aff=81595
 [panstar]: https://panstar.ai/register?aff=DCAD1VCH
 [lisa]: https://lisahost.com/aff.php?aff=10639
+[nodemach]: https://www.nodemach.com/welcome?vcd=9467e966
 
 
 [================= 💳 跨境虚拟银行卡 =================]: #
@@ -18,13 +19,14 @@
 
 [================= 🏠 静态住宅 IP =================]: #
 [静态代理推荐表]: /recommend/3-isp/ 
-[vircs]: https://www.vircs.com/welcome?vcd=9467e966
+[nodemach]: https://www.nodemach.com/welcome?vcd=9467e966
 [webshare]: https://www.webshare.io/?referral_code=apnsjeua21if
 [miyaip]: https://www.miyaip.com/?invitecode=1049297 "优惠码(8.8折）：V88D"
 [985Proxy]: https://l1.985proxy.com/?TN1AZJ "优惠码:XIAOV007"
 [talor]: https://dashboard.talordata.com/reg?inviter_code=xiaov001 "优惠码:xiaov001"
 [kookeey]: https://www.kookeey.com/?aff=86916142 
 [ipflay]: https://ipfly.net/activity/WEROV1ZQQks6TFZKOVhYQzM5NQ== "邀请码:XDNWVPBK"
+[kilo]: https://www.kiloproxy.com/?inviteCode=WCDDF3EG "9折优惠码：KJXVVIP9"
 
 
 
@@ -47,6 +49,7 @@
 [================= 🛒 账号购买平台 =================]: #
 [账号购买平台推荐]: /recommend/6-accounts/
 [账号星球]: https://accboy7kjxv.acceboy.com "记得领取5元优惠券"
+[账号集市]: https://www.accmart.top/register?invite=D28CC6FDC3AE
 
 
 [================= ⚓ 跨境工具 =================]: #
@@ -58,6 +61,7 @@
 [fish]: https://fish.audio/?fpr=gl25
 [fluxcola]: https://www.fluxcola.com/register?invite_code=WFD03EEO "邀请码:WFD03EEO"
 [Ads]: https://www.adspower.net/share/8PwCP5 "邀请码:8PwCP5"
+[bit]: https://www.bitbrowser.cn/?code=qol4az
 [v2rayn电脑版]: https://github.com/2dust/v2rayN/releases
 [v2rayng安卓版]: https://github.com/2dust/v2rayNG/releases
 [starryblu]: https://sg.starryblu.com/x/1q0s0NQv "邀请码：MHQK00U"

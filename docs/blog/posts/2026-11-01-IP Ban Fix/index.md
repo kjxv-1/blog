@@ -42,7 +42,7 @@ tags:
 ---
 
 ## 📺 视频相关链接汇总
-1. 🍺 本期视频同款——Nodemach（精品线路）【对标 DMIT】:[点击跳转][vircs]
+1. 🍺 本期视频同款——Nodemach（精品线路）【对标 DMIT】:[点击跳转][nodemach]
 1. 📖 其他中转服务器（VPS）：[点击查看详情][VPS推荐表]
 1. 🌍 静态住宅IP：[点击查看详情][静态代理推荐表]
 1. ✈️ TG交流群：[https://t.me/xiaovchat](https://t.me/xiaovchat)
@@ -338,7 +338,7 @@ sb -n
 
 **Nodemach：美国 三网精品线路**
 
-官网注册链接：[进入 Nodemach 注册页面][vircs]
+官网注册链接：[进入 Nodemach 注册页面][nodemach]
 
 购买指引教程：[点击跳转](../../../tutorials/posts/Buy-Guide-Nodemach/index.md)
 

@@ -563,3 +563,31 @@ body[data-md-color-scheme="slate"]:not(:has(.home-hero)) .md-content__inner {
         border-radius: 10px;
     }
 }
+
+
+/* 让 Markdown 表格自动占满正文宽度 */
+
+/* 表格外部容器 */
+.md-typeset .md-typeset__table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* 表格本身 */
+.md-typeset table:not([class]) {
+    display: table;
+    width: 100%;
+    table-layout: auto;
+}
+
+/* 手机端允许横向滚动 */
+@media screen and (max-width: 768px) {
+    .md-typeset .md-typeset__scrollwrap {
+        overflow-x: auto;
+    }
+
+    .md-typeset table:not([class]) {
+        min-width: 560px;
+    }
+}
