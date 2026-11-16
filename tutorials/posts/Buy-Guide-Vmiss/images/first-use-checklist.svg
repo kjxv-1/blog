@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="650" viewBox="0 0 1080 650" role="img" aria-labelledby="title desc">
+  <title id="title">VMiss VPS 首次连接信息核对示意</title>
+  <desc id="desc">从开通资料中查找地址、SSH 端口、系统用户名和密码或密钥，填入 SSH 客户端。不是服务详情页的真实截图。</desc>
+  <rect width="1080" height="650" rx="24" fill="#f0f5f7"/>
+  <g font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+    <text x="52" y="70" fill="#173746" font-size="32" font-weight="700">首次连接 VPS：先找齐这 4 项信息</text>
+    <text x="52" y="108" fill="#657b86" font-size="21">填写项示意 · 信息来自服务详情、关联控制台或开通邮件</text>
+    <rect x="52" y="145" width="976" height="330" rx="14" fill="#fff" stroke="#d8e4e9" stroke-width="2"/>
+    <path d="M52 227H1028M52 310H1028M52 393H1028" fill="none" stroke="#d8e4e9" stroke-width="2"/>
+    <g fill="#173746" font-size="25" font-weight="700">
+      <text x="83" y="197">主机地址</text><text x="83" y="280">SSH 端口</text><text x="83" y="363">系统用户名</text><text x="83" y="446">系统密码 / 密钥</text>
+    </g>
+    <g fill="#536f7d" font-size="23">
+      <text x="350" y="197">填写这台 VPS 的公网 IP 或指定连接地址</text>
+      <text x="350" y="280">按开通资料填写，不要默认所有机器都是 22</text>
+      <text x="350" y="363">Linux 常见为 root，以实际提供的账号为准</text>
+      <text x="350" y="446">使用 VPS 登录凭据，与网站账户密码区分</text>
+    </g>
+    <rect x="52" y="505" width="976" height="94" rx="12" fill="#e3f1ef"/>
+    <text x="80" y="543" fill="#137777" font-size="24" font-weight="700">填入 FinalShell 等 SSH 客户端 → 连接 → 按后续教程部署</text>
+    <text x="80" y="577" fill="#536f7d" font-size="21">连接失败时，先核对地址、端口、凭据和服务状态，再排查网络或提交工单。</text>
+  </g>
+</svg>

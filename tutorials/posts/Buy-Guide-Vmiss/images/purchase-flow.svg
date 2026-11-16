@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="720" viewBox="0 0 1080 720" role="img" aria-labelledby="title desc">
+  <title id="title">VMiss 选购核对流程示意</title>
+  <desc id="desc">依次进入账户，确定地区线路，核对套餐，确认周期金额，付款并检查开通状态。这是操作示意图，不是客户中心截图。</desc>
+  <rect width="1080" height="720" rx="24" fill="#f0f5f7"/>
+  <g font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+    <text x="52" y="70" fill="#173746" font-size="32" font-weight="700">VMiss 购买前，按顺序核对这 6 步</text>
+    <text x="52" y="108" fill="#657b86" font-size="21">操作示意图 · 具体按钮与字段以客户中心实际页面为准</text>
+    <g fill="#fff" stroke="#d8e4e9" stroke-width="2">
+      <rect x="52" y="148" width="976" height="74" rx="12"/><rect x="52" y="236" width="976" height="74" rx="12"/>
+      <rect x="52" y="324" width="976" height="74" rx="12"/><rect x="52" y="412" width="976" height="74" rx="12"/>
+      <rect x="52" y="500" width="976" height="74" rx="12"/><rect x="52" y="588" width="976" height="74" rx="12"/>
+    </g>
+    <g fill="#16898a">
+      <circle cx="94" cy="185" r="23"/><circle cx="94" cy="273" r="23"/><circle cx="94" cy="361" r="23"/>
+      <circle cx="94" cy="449" r="23"/><circle cx="94" cy="537" r="23"/><circle cx="94" cy="625" r="23"/>
+    </g>
+    <g fill="#fff" font-size="23" font-weight="700" text-anchor="middle">
+      <text x="94" y="193">1</text><text x="94" y="281">2</text><text x="94" y="369">3</text>
+      <text x="94" y="457">4</text><text x="94" y="545">5</text><text x="94" y="633">6</text>
+    </g>
+    <g fill="#173746" font-size="25" font-weight="700">
+      <text x="137" y="194">进入账户</text><text x="137" y="282">确定线路</text><text x="137" y="370">核对套餐</text>
+      <text x="137" y="458">确认金额</text><text x="137" y="546">完成付款</text><text x="137" y="634">检查开通</text>
+    </g>
+    <g fill="#536f7d" font-size="22">
+      <text x="310" y="194">从官网入口注册或登录，留意邮箱通知</text>
+      <text x="310" y="282">按推荐表选择地区，再核对 TRI / 9929 / CMIN2 等分类</text>
+      <text x="310" y="370">CPU、内存、磁盘、带宽、流量与 IP 配置</text>
+      <text x="310" y="458">付款周期、币种、优惠验证结果和最终总额</text>
+      <text x="310" y="546">按当时页面提供的方式支付，保留订单信息</text>
+      <text x="310" y="634">查看产品状态和邮箱，获取 VPS 的连接资料</text>
+    </g>
+  </g>
+</svg>
